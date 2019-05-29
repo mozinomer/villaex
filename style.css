@@ -1,1 +1,205 @@
-index.php
+body
+{
+	margin: 0px;
+}
+*
+{
+    font-family: 'Open Sans', sans-serif;
+}
+a
+{
+	color: inherit;
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: none;
+}
+.container
+{
+	max-width: 1170px;
+	width: 1170px;
+	margin: 0 auto;
+}
+.row
+{
+	width: 100%;
+	/*display: flex;*/
+}
+.col-md-6
+{
+	width: 50%;
+	float: left;
+}
+.display_flex {
+
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+.col-md-9
+{
+	width: 80%;
+	float: left;
+}
+.col-md-3
+{
+	width: 20%;
+	float: left;
+}
+
+/********************************************
+*********************************************
+*********************************************
+**************** Home Page ******************
+*********************************************
+*********************************************
+*********************************************
+*/
+p {
+    font-size: 15px;
+}
+
+.section_2_home_page {
+	width: 100%;
+    background-color: #cbd2d3;
+    background-size: 890px 890px;
+    background-repeat: no-repeat;
+    padding-bottom: 161px;
+    background: #cbd2d3 url(./includes/images/map-home.png);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    padding: 100px 0px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    /* padding-top: 0px; */
+    height: 600px;
+    float: left;
+}
+.section_2_home_page .container
+{
+	padding: 0px 0px;
+	position: relative;
+	height: 100%;
+}
+.block_right {
+    position: absolute;
+    top: 0px;
+    background: #02263B;
+    width: 394px;
+    height: 394px;
+    right: 0px;
+    text-align: center;
+
+}
+.block_right .display_flex h2
+{
+    align-content: center;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.left_block {
+    width: 33%;
+    float: left;
+    background: #fff;
+    display: block;
+    border: 4px solid #02263B;
+    display: flex;
+    align-items: center;
+    /*height: 400px;*/
+    padding: 40px 0px;
+
+}
+.left_block .container {
+
+    width: 80%;
+    padding: 0px;
+    display: block;
+    max-width: 100%;
+
+}
+.main_heading_left_block_section_2--home_page {
+    font-weight: 600;
+    color: #4691a8;
+    font-size: 34px;
+    margin: 0px 0px 20px;
+}
+.heading_block_left_section-2--home_page {
+
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    display: block;
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+.description_left_block_section_2--home_page
+{
+	width: 90%;
+}
+.botton_text_section_2--home_page {
+
+    width: 40%;
+    position: absolute;
+	bottom: 120px;
+    right: 0px;
+    color: #000;
+    font-weight: 400;
+
+}
+.view_more_button_section_2--home_page
+{
+	padding: 35px 25px 40px;
+	color: #fff;
+	background-color: #4691a8;
+	border-color: #005cbf;
+	cursor: pointer;
+	border-radius: 6px;
+}
+.description_bottom_text_section_2--home_page
+{
+	width: 90%;
+	margin: 0px;
+}
+
+.section_3--home_page
+{
+	float: left;
+	width: 100%;
+	padding: 80px 0px;
+}
+.heading_section_3
+{
+	font-weight: 600;
+    color: #23444e;
+    margin: 0px 0px 30px 0px;
+}
+.col-md-6-with-padding
+{
+	padding: 0px 20px;
+	width: 46%
+}
+.heaidng_right_section_3_section-3--home_page
+{
+	    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    display: block;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0px;
+}
+.align-item-top
+{
+	align-items: baseline;
+}
