@@ -10,7 +10,7 @@ get_header();?>
 
 
 <div class="section_2_home_page">
-	<div class="container">
+	<div class="container main_container_section_2_homepage">
 		<div class="block_right">
 			<div class="display_flex">
 				<h2>
@@ -106,7 +106,7 @@ get_header();?>
 							 User friendly web interface that allows you one-click secure checkout, enables customers to track orders.
 						</p>
 					</div>
-					<div class="col-md-6">
+					<div class="padding-right-0 col-md-6 col-md-6-with-padding ">
 						<h3 class="heaidng_right_section_3_section-3--home_page">
 							 iOS & Andoid App
 						</h3>
@@ -118,12 +118,41 @@ get_header();?>
 			</div>
 		</div>
 		<div class="row">
-			<img src="#">
+			<img src="<?php echo get_template_directory_uri(); ?>/includes/images/b4buy.png" width="100%">
 		</div>
 	</div>
 </div>
 
-
+<div class="section_4--home_page">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-6-with-padding">
+				<div class="row display_flex">
+					<div class="col-md-9">
+						<p class="description_bottom_text_section_2--home_page">
+							PHP travel is a script designed for travel agencies that want
+							to move their operations online, helping them set up a fully-working hotel room booking system. PHP travel lets users search hotels, check room availability, book a room for their desired period and then pay for it accordingly. All via a simple interface which is customizable via specially crafted administration panel.
+						</p>
+					</div>
+					<div class="col-md-3">
+						<a class="view_more_button_section_2--home_page view_more_button_section_2--home_page1" href="#">view</a>
+					</div>
+				</div>
+				<div class="row display_flex">
+					<div class="col-md-4">
+						<img src="#">
+					</div>
+					<div class="col-md-4">
+						<img src="#">
+					</div>
+					<div class="col-md-4">
+						<img src="#">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 
 
