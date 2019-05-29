@@ -140,13 +140,56 @@ get_header();?>
 				</div>
 				<div class="row display_flex">
 					<div class="col-md-4">
-						<img src="#">
+						<img src="<?php echo get_template_directory_uri(); ?>/includes/images/section4/1.png">
 					</div>
 					<div class="col-md-4">
-						<img src="#">
+						<img src="<?php echo get_template_directory_uri(); ?>/includes/images/section4/2.jpg">
 					</div>
 					<div class="col-md-4">
-						<img src="#">
+						<img src="<?php echo get_template_directory_uri(); ?>/includes/images/section4/3.png">
+					</div>
+				</div>
+			</div>
+			<div class="float-right right_column_section_4--home_page">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="row">
+							<div class="heading_section_4--home_page">
+								PHP Travel Is Script Design For Travel Agencies
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<span class="heading_block_left_section-2--home_page">
+									backend + api
+								</span>
+								<p class="description_left_block_section_2--home_page">
+									 Laravel backend with an API that makes it easy to create smart contracts on demand as well as access and manage all date stored on the database.
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="row">
+									<div class="col-md-6">
+										<span class="heading_block_left_section-2--home_page">
+											Web App
+										</span>
+										<p class="description_left_block_section_2--home_page">
+											 A clean web interface with full control of the database and all the service features.
+										</p>
+									</div>
+									<div class="col-md-6">
+										<span class="heading_block_left_section-2--home_page">
+											iOS &amp; Andoid App
+										</span>
+										<p class="description_left_block_section_2--home_page">
+											 An app working with the API and geolocation services.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -154,8 +197,71 @@ get_header();?>
 	</div>
 </div>
 
+<div class="section_5--home_page">
+	<div class="container_hight-100">
+		<div class="row display_flex">
+			<div class="column_section-5--home_page">
+				<div class="row display_flex">
+					<div class="col-md-6">
+						<img src="https://villaextechnologies.com/assets/images/chat_support.png">
+					</div>
+					<div class="col-md-6">
+						<h4 class="heading_located_in_section-5--home_page">
+							located in New York
+						</h4>
+					</div>
+				</div>
+			</div>
+			<div class="column_section-5--home_page border-left-right__home_page--section_5">
+				<div class="row heaidng_clients_section-5">
+					150+
+				</div>
+				<div class="row Clients_satsisfied">
+					Satisfied Clients
+				</div>
+			</div>
+			<div class="column_section-5--home_page">
+				<div class="row">
+					<h4 class="heaidng_3_section_5--home_page">Curvy Egg</h4>
+				</div>
+				<div class="row">
+					<h5>Our Own AI Based</h5>
+					<h5>Chat Support Application</h5>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
-
-
+<div class="section_6--home_page case_studies_section--homepage">
+	<div class="container">
+		<div class="row">
+			<h2 class="text-center case_studies_section--homepage_heading">Case Studies</h2>
+			<p class="text-center casestudies-description_homepage">
+				We’ve had the preference of working with excellent clients that are pushing their industry’s boundaries.We’ve had the preference of working with excellent clients that are pushing their industry’s boundaries.
+			</p>
+		</div>
+		<div class="row">
+			<div class="columns_casestudies_homepage">
+				<img src="<?php echo get_template_directory_uri(); ?>/includes/images/casestudies/1.png">
+			</div>
+			<div class="columns_casestudies_homepage">
+				<img src="<?php echo get_template_directory_uri(); ?>/includes/images/casestudies/2.png">
+			</div>
+			<div class="columns_casestudies_homepage border-rihgtee_0">
+				<img src="<?php echo get_template_directory_uri(); ?>/includes/images/casestudies/3.png">
+			</div>
+			<div class="columns_casestudies_homepage border-btoom_0">
+				<img src="<?php echo get_template_directory_uri(); ?>/includes/images/casestudies/4.png">
+			</div>
+			<div class="columns_casestudies_homepage border-btoom_0">
+				<img src="<?php echo get_template_directory_uri(); ?>/includes/images/casestudies/5.jpg">
+			</div>
+			<div class="columns_casestudies_homepage border-btoom_0 border-rihgtee_0">
+				<img src="<?php echo get_template_directory_uri(); ?>/includes/images/casestudies/6.png">
+			</div>
+		</div>
+	</div>
+</div>
 
 <?php get_footer();?>

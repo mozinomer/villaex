@@ -15,6 +15,10 @@ a:hover
 {
 	text-decoration: none;
 }
+img
+{
+	width: 100%;
+}
 .container
 {
 	max-width: 1170px;
@@ -31,6 +35,21 @@ a:hover
 	width: 50%;
 	float: left;
 }
+.col-md-4
+{
+	width: 33.3%;
+	float: left;
+	padding: 10px;
+}
+.col-md-12
+{
+	width: 100%;
+	float: left;
+}
+.text-center
+{
+	text-align: center;
+}
 .display_flex {
 
     display: flex;
@@ -38,6 +57,18 @@ a:hover
     height: 100%;
     width: 100%;
 
+}
+.col-md-5
+{
+	width: 40%;
+}
+.push-right
+{
+	margin-right: 0px;
+}
+.float-right
+{
+	float: right;
 }
 .col-md-9
 {
@@ -215,9 +246,121 @@ p {
 {
 	float: left;
 	width: 100%;
-	padding: 80px 0px;
+	padding: 60px 0px;
 }
 .view_more_button_section_2--home_page1
 {
 	background: #334692
+}
+
+
+.right_column_section_4--home_page
+{
+    border: 4px solid #23444e;
+    padding: 40px 30px;
+    height: 100%;
+    margin-top: -100px;
+    width: 35%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* height: 450px; */
+    padding: 131px 30px;
+}
+.heading_section_4--home_page {
+    color: #2f4794;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-top: -20px;
+}
+.section_5--home_page
+{
+    float: left;
+    width: 100%;
+    background-color: #02263b;
+    height: 230px;
+    color: #fff;
+    margin-bottom: 50px;
+    padding: 20px 0px;
+}
+.column_section-5--home_page {
+    width: 33%;
+    /* float: left; */
+    padding: 0px 20px;
+    text-align: center;
+}
+.container_hight-100
+{
+	height: 100%;
+}
+.column_section-5--home_page h1,
+.column_section-5--home_page h2,
+.column_section-5--home_page h3,
+.column_section-5--home_page h4,
+.column_section-5--home_page h5,
+.column_section-5--home_page h6
+{
+	margin: 0px;
+}
+.heaidng_clients_section-5
+{
+	font-size: 5rem;
+    font-weight: 1000;
+}
+.heading_located_in_section-5--home_page
+{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.column_section-5--home_page.border-left-right__home_page--section_5 {
+    border: 3px solid #fff;
+    border-top: 0;
+    border-bottom: 0px;
+}
+.Clients_satsisfied
+{
+    font-size: 1.3rem;
+}
+.heaidng_3_section_5--home_page
+{
+	font-size: 2rem
+}
+.column_section-5--home_page h5
+{
+	font-weight: 100;
+}
+.columns_casestudies_homepage {
+    width: 32%;
+    float: left;
+    border: 3px dotted #000;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    border-left: 0;
+    border-top: 0;
+}
+.columns_casestudies_homepage img {
+    width: 54%;
+    margin: 0 auto;
+}
+.casestudies-description_homepage
+{
+	width: 60%;
+	margin: 0 auto 30px;
+	font-size: 17px;
+}
+.border-btoom_0
+{
+	border-bottom: 0;
+}
+.border-rihgtee_0
+{
+	border-right: 0px;
+}
+.section_6--home_page
+{
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
 }
