@@ -419,3 +419,68 @@ span.pusblished_blog_date--home_page {
     text-align: center;
     margin: 50px 0px 0px;
 }
+.section8--homepage.join_our_team
+{
+    float: left;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.heaidng_join {
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 40px;
+    color: #1f1f1f;
+}
+.block_left_join_out_team1
+{
+    width: 611px;
+    position: relative;
+    height: 390px;
+    display: block;
+    background: url('./includes/images/join_our_team/job.svg');
+}
+.block_left_join_out_team1 h2 {
+    color: #fff;
+    font-size: 18px;
+    width: 360px;
+    position: absolute;
+    right: 31px;
+    top: 20px;
+}
+.applynow_row
+{
+        position: absolute;
+    bottom: 50px;
+    left: 40px;
+}
+.button_arrow_block_join_our_team
+{
+    position: relative;
+    bottom: 0px;
+    width: 88px;
+    height: 37px;
+    display: block;
+    border: 3px solid #fff;
+}
+span.button_arrow_block_join_our_team img {
+    width: 39px;
+    height: 28px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 8px;
+}
+.applynow_text--home
+{
+    color:  #fff;
+    margin: 20px 0px;
+    display: block;
+}
+.icon_shake1
+{
+    height: 112px;
+    width: 80px;
+    position: absolute;
+    bottom: 40px;
+    right: 50px;
+}
