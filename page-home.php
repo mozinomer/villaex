@@ -264,4 +264,79 @@ get_header();?>
 	</div>
 </div>
 
+
+<div class="section_7--home_page blog">
+	<div class="container">
+		<div class="row">
+			<h2 class="text-center">
+				From Our Blog
+			</h2>
+			<h6 class="text-center">
+				stay updated
+			</h6>
+		</div>
+		<div class="row">
+			<div class="blog-column">
+				<div class="row">
+					<img src="https://www.outsourcedesigning.com/wp-content/uploads/2019/05/designesty_featured_img.jpg" width="270px" height="190px">
+				</div>
+				<div class="row">
+					<h4 class="blog_heading_title--homepage">
+						Creative Design
+					</h4>
+					<p class="excerpt_blog--homepage">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliquam.
+					</p>
+				</div>
+				<span class="pusblished_blog_date--home_page">
+					20 Nov, 2018
+				</span>
+			</div>
+			<div class="blog-column">
+				<div class="row">
+					<img src="https://www.outsourcedesigning.com/wp-content/uploads/2019/05/designesty_featured_img.jpg" width="270px" height="190px">
+				</div>
+				<div class="row">
+					<h4 class="blog_heading_title--homepage">
+						Creative Design
+					</h4>
+					<p class="excerpt_blog--homepage">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliquam.
+					</p>
+				</div>
+				<span class="pusblished_blog_date--home_page">
+					20 Nov, 2018
+				</span>
+			</div>
+			<div class="blog-column">
+				<div class="row">
+					<img src="https://www.outsourcedesigning.com/wp-content/uploads/2019/05/designesty_featured_img.jpg" width="270px" height="190px">
+				</div>
+				<div class="row">
+					<h4 class="blog_heading_title--homepage">
+						Creative Design
+					</h4>
+					<p class="excerpt_blog--homepage">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliquam.
+					</p>
+				</div>
+				<span class="pusblished_blog_date--home_page">
+					20 Nov, 2018
+				</span>
+			</div>
+		</div>
+		<div class="row button_row_blog">
+			<a href="#" class="Browse_all--home-page">Browse all</a>
+		</div>
+	</div>
+</div>
+
 <?php get_footer();?>
+
+
+
+
+

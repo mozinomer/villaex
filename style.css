@@ -364,3 +364,58 @@ p {
     width: 100%;
     margin-bottom: 30px;
 }
+.section_7--home_page
+{
+        float: left;
+    width: 100%;
+    background: #f7f7f7;
+    margin-bottom: 50px;
+        position: relative;
+    padding-bottom: 30px;
+}
+.blog-column
+{
+    display: block;
+    width: 29%;
+    height: 415px;
+    background: #e4e4e4;
+    padding: 20px 15px;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+.blog_heading_title--homepage
+{
+    margin: 10px 0px;
+}
+.excerpt_blog--homepage
+{
+    font-size: 17px;
+    color: #000;
+    font-weight: 450;
+}
+span.pusblished_blog_date--home_page {
+    position: absolute;
+    bottom: 16px;
+    font-size: 12px;
+    left: 30px;
+}
+.Browse_all--home-page
+{
+    width: 143px;
+    display: block;
+    height: 35px;
+    background: #02263b;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: 32px;
+}
+
+.button_row_blog
+{
+    float: left;
+    text-align: center;
+    margin: 50px 0px 0px;
+}
