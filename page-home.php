@@ -17,15 +17,15 @@ get_header();?>
 				villaex technologies
 			</span>
 			<div class="years_inmarket">
-				<span>
-					more than
-				</span>
-				<span>
-					5
-				</span>
-				<span>
-					years in
-				</span>
+					<span class="more_than">
+						more than
+					</span>
+					<span class="actual_years">
+						5
+					</span>
+					<span class="year_text">
+						years
+					</span>
 			</div>
 		</div>
 	</div>
