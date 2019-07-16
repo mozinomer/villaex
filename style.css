@@ -741,3 +741,56 @@ ul.career_list_container li .row .col-md-4 .row {
 .row_main_bg_career.display_flex {
     margin-bottom: 40px;
 }
+
+/*case study*/
+
+
+.images_projects_container img
+{
+    width: 100%;
+    height: 100%;
+    padding: 60px;
+}
+.images_projects_container
+{
+    border: 2px dotted #ccc;
+    min-height: 260px;
+    align-items: center;
+    display: flex;
+    max-height: 260px;
+}
+.casestudy_heaing
+{
+    display: block;
+    width: 350px;
+    text-transform: capitalize;
+    font-weight: 1000;
+}
+.casestudy_text
+{
+    width: 80%;
+    display: block;
+}
+.button_link_casestudies a
+{
+    background: #4691a8;
+    padding: 8px 30px;
+    display: block;
+    width: 200px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.top_row_casestudies
+{
+    display: block;
+    margin: 50px 0px !important;
+}
+.button_link_casestudiesa a
+{
+    margin: 0 auto;
+}
+.heading_bottom_casestudies_main_row
+{
+    display: block;
+    margin: 40px 0px !important;
+}
