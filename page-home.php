@@ -9,6 +9,29 @@
 get_header();?>
 
 
+
+<div class="heade_homepage">
+	<div class="container">
+		<div class="years_container">
+			<span class="compnaY_name">
+				villaex technologies
+			</span>
+			<div class="years_inmarket">
+				<span>
+					more than
+				</span>
+				<span>
+					5
+				</span>
+				<span>
+					years in
+				</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+
 <div class="section_2_home_page">
 	<div class="container main_container_section_2_homepage">
 		<div class="block_right">
