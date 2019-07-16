@@ -64,7 +64,7 @@ p {
 }
 
 .section_2_home_page {
-	width: 100%;
+    width: 100%;
     background-color: #cbd2d3;
     background-size: 890px 890px;
     background-repeat: no-repeat;
@@ -76,9 +76,36 @@ p {
     padding: 100px 0px;
     background-repeat: no-repeat;
     background-position: left top;
-     padding-top: 0px;
+    padding-top: 0px;
     height: 700px;
     float: left;
+    position: relative;
+    background-color: #cbd2d3;
+    background-size: 890px 890px;
+    background-repeat: no-repeat;
+}
+.sv_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 890px;
+    height: 100%;
+    overflow: hidden;
+}
+.svg {
+    overflow: hidden;
+}
+.svg svg
+{
+        transform: translateY(-25px);
+    width: 890px;
+    height: 890px;
+}
+.svg path
+{
+    fill: none;
+    stroke: none;
 }
 .section_2_home_page .container
 {
@@ -240,10 +267,12 @@ p {
 {
     border: 4px solid #23444e;
     padding: 40px 30px;
-    height: 100%;
+    height: auto;
     margin-top: -100px;
     width: 35%;
-    padding: 80px 0px;
+    padding: 80px 0px 20px;
+    position: absolute;
+    right: 0px;
 }
 .col-md-6.col-md-6-with-padding .row .col-md-6:first-child {
     padding: 0px;
@@ -396,6 +425,8 @@ p {
 .blog_heading_title--homepage
 {
     margin: 10px 0px;
+    font-size: 19px;
+    font-weight: 600;
 }
 .excerpt_blog--homepage
 {
@@ -422,7 +453,16 @@ span.pusblished_blog_date--home_page {
     line-height: 32px;
     margin: 50px auto 0px;
 }
-
+.the_post_thumbnail_blog_home
+{
+    display: block;
+    width: 100%;
+    height: 190px;
+    overflow: hidden;
+}
+.row.the_post_thumbnail_blog_home img {
+    height: 100%;
+}
 .button_row_blog
 {
     float: left;
@@ -971,4 +1011,23 @@ span.year_text {
     display: block;
     top: 450px;
     left: 108px;
+}
+
+/*cahnges*/
+.section_4--home_page .row
+{
+    position: relative;
+}
+.section_5--home_page .container_hight-100 .container .row .col-md-4:last-child .row h5 {
+    display: block;
+    width: 100%;
+    font-size: 19px;
+}
+
+.section_5--home_page .container_hight-100 .container .row .col-md-4:last-child .row h4 {
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-size: 60px;
+    margin: 0px;
 }
