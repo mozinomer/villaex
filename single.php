@@ -3,7 +3,7 @@
 ?>
 
 
-<div class="row">
+<div class="row main_single_post_container">
 	<div class="container">
 		<div class="col-md-9">
 			<div class="row the_title-single">
@@ -21,38 +21,40 @@
 		</div>
 <div class="row">
 	<div class="container">
-			<h3 class="display_block realted_post-container_hading">
-				<span>
-					realted post
-				</span>
-			</h3>
-			<div class="row realted_post-container">
-				<?php
-					// WP_Query arguments
-					$args = array (
-						'post_type'              => array( 'post' ),
-						'post_status'            => array( 'publish' ),
-						'nopaging'               => true,
-						'order'                  => 'DSC',
-						'orderby'                => 'menu_order',
-					);
+			<div class="col-md-9">
+				<h3 class="display_block realted_post-container_hading">
+					<span>
+						realted post
+					</span>
+				</h3>
+				<div class="row realted_post-container">
+					<?php
+						// WP_Query arguments
+						$args = array (
+							'post_type'              => array( 'post' ),
+							'post_status'            => array( 'publish' ),
+							'nopaging'               => true,
+							'order'                  => 'DSC',
+							'orderby'                => 'menu_order',
+						);
 
-					// The Query
-					$services = new WP_Query( $args );
-				if ( $services->have_posts() ) {
-					while ( $services->have_posts() ) {
-						$services->the_post(); ?>
-						<div class="col-md-4">
-							<div class="row the_post_thumbnail_single_related">
-								<?php the_post_thumbnail(); ?>
+						// The Query
+						$services = new WP_Query( $args );
+					if ( $services->have_posts() ) {
+						while ( $services->have_posts() ) {
+							$services->the_post(); ?>
+							<div class="col-md-4">
+								<div class="row the_post_thumbnail_single_related">
+									<?php the_post_thumbnail(); ?>
+								</div>
+								<div class="row the_post_title_single_related">
+									<?php the_title(); ?>
+								</div>
 							</div>
-							<div class="row the_post_title_single_related">
-								<?php the_title(); ?>
-							</div>
-						</div>
-			  <?php }
+				  <?php }
 
-				} ?>
+					} ?>
+				</div>
 			</div>
 		</div>
 	</div>

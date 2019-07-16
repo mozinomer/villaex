@@ -658,6 +658,29 @@ h3.display_block.realted_post-container_hading span {
     text-transform: capitalize;
     font-size: 18px;
     background: #21739c;
-    padding: 4px 10px;
+    padding: 4px 40px;
     color: #fff;
+}
+.main_single_post_container
+{
+    margin-top: 60px !important;
+}
+.row.the_title-single {
+    font-size: 40px;
+    letter-spacing: 0.1px;
+    text-transform: capitalize;
+    font-weight: 1000;
+}
+.row.the_author_single {
+    margin: 12px 0px !important;
+    display: block;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+.row.the_content_single p {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.row.the_content_single p br {
+    display: none;
 }
