@@ -1031,3 +1031,50 @@ span.year_text {
     font-size: 60px;
     margin: 0px;
 }
+ul.list_items_header_hompage li {
+    line-height: 46px;
+    margin-bottom: 20px;
+}
+
+ul.list_items_header_hompage {
+    padding: 0px;
+    list-style: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 39px;
+}
+ul.list_items_header_hompage li a svg {
+    width: 35px;
+    height: 23px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+ul.list_items_header_hompage li a span {
+    font-size: 20px;
+    /*padding-left: 20px;*/
+}
+ul.list_items_header_hompage li a:hover
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.list_items_header_hompage {
+    padding: 0px;
+    list-style: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 39px;
+    position: absolute;
+    right: 300px;
+    top: 80px;
+    width: 496px;
+    /* background: rebeccapurple; */
+}
+.heading_block_left_section-2--home_page img
+{
+    width: auto;
+    float: left;
+    margin-right: 7px;
+}

@@ -35,6 +35,53 @@ get_header();?>
 			Performing research & constant development
 		</div>
 	</div>
+	<ul class="list_items_header_hompage">
+		<li>
+			<a href="#">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24.8" data-v-dadbc9a0=""><g data-name="Layer 2" data-v-dadbc9a0=""><g data-name="Layer 1" data-v-dadbc9a0=""><path fill="#fff" opacity=".1" d="M1.59 0h9.13v9.13H1.59zM15.87 0H25v9.13h-9.13zM15.48 14.29h9.13v9.13h-9.13zM1.59 14.29h9.13v9.13H1.59z" data-v-dadbc9a0=""></path><path d="M9.13 1.59H0v9.13h9.13V1.59zM7 3.43v5H2v-5zM9.13 15.67H0v9.13h9.13zM7 17.65v5H2v-5zM23.41 15.67h-9.12v9.13h9.13zm-1.91 2v5h-5v-5zM23.41 1.59h-9.12v9.13h9.13zM21.5 3.65v5h-5v-5z" fill="#ff5f58" data-v-dadbc9a0=""></path><path fill="#fff" d="M3.97 5.65h10.32v1H3.97zM9.13 19.54h10.32v1H9.13zM4.06 21.04V10.72h1v10.32zM18.55 15.67V5.35h1v10.32z" data-v-dadbc9a0=""></path></g></g></svg>
+				digital media marketing
+				<span>
+					Increase Conversion Rates. Scale Up Marketin
+				</span>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24.8" data-v-dadbc9a0=""><g data-name="Layer 2" data-v-dadbc9a0=""><g data-name="Layer 1" data-v-dadbc9a0=""><path fill="#fff" opacity=".1" d="M1.59 0h9.13v9.13H1.59zM15.87 0H25v9.13h-9.13zM15.48 14.29h9.13v9.13h-9.13zM1.59 14.29h9.13v9.13H1.59z" data-v-dadbc9a0=""></path><path d="M9.13 1.59H0v9.13h9.13V1.59zM7 3.43v5H2v-5zM9.13 15.67H0v9.13h9.13zM7 17.65v5H2v-5zM23.41 15.67h-9.12v9.13h9.13zm-1.91 2v5h-5v-5zM23.41 1.59h-9.12v9.13h9.13zM21.5 3.65v5h-5v-5z" fill="#ff5f58" data-v-dadbc9a0=""></path><path fill="#fff" d="M3.97 5.65h10.32v1H3.97zM9.13 19.54h10.32v1H9.13zM4.06 21.04V10.72h1v10.32zM18.55 15.67V5.35h1v10.32z" data-v-dadbc9a0=""></path></g></g></svg>
+				digital media marketing
+				<span>
+					Increase Conversion Rates. Scale Up Marketin
+				</span>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24.8" data-v-dadbc9a0=""><g data-name="Layer 2" data-v-dadbc9a0=""><g data-name="Layer 1" data-v-dadbc9a0=""><path fill="#fff" opacity=".1" d="M1.59 0h9.13v9.13H1.59zM15.87 0H25v9.13h-9.13zM15.48 14.29h9.13v9.13h-9.13zM1.59 14.29h9.13v9.13H1.59z" data-v-dadbc9a0=""></path><path d="M9.13 1.59H0v9.13h9.13V1.59zM7 3.43v5H2v-5zM9.13 15.67H0v9.13h9.13zM7 17.65v5H2v-5zM23.41 15.67h-9.12v9.13h9.13zm-1.91 2v5h-5v-5zM23.41 1.59h-9.12v9.13h9.13zM21.5 3.65v5h-5v-5z" fill="#ff5f58" data-v-dadbc9a0=""></path><path fill="#fff" d="M3.97 5.65h10.32v1H3.97zM9.13 19.54h10.32v1H9.13zM4.06 21.04V10.72h1v10.32zM18.55 15.67V5.35h1v10.32z" data-v-dadbc9a0=""></path></g></g></svg>
+				digital media marketing
+				<span>
+					Increase Conversion Rates. Scale Up Marketin
+				</span>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24.8" data-v-dadbc9a0=""><g data-name="Layer 2" data-v-dadbc9a0=""><g data-name="Layer 1" data-v-dadbc9a0=""><path fill="#fff" opacity=".1" d="M1.59 0h9.13v9.13H1.59zM15.87 0H25v9.13h-9.13zM15.48 14.29h9.13v9.13h-9.13zM1.59 14.29h9.13v9.13H1.59z" data-v-dadbc9a0=""></path><path d="M9.13 1.59H0v9.13h9.13V1.59zM7 3.43v5H2v-5zM9.13 15.67H0v9.13h9.13zM7 17.65v5H2v-5zM23.41 15.67h-9.12v9.13h9.13zm-1.91 2v5h-5v-5zM23.41 1.59h-9.12v9.13h9.13zM21.5 3.65v5h-5v-5z" fill="#ff5f58" data-v-dadbc9a0=""></path><path fill="#fff" d="M3.97 5.65h10.32v1H3.97zM9.13 19.54h10.32v1H9.13zM4.06 21.04V10.72h1v10.32zM18.55 15.67V5.35h1v10.32z" data-v-dadbc9a0=""></path></g></g></svg>
+				digital media marketing
+				<span>
+					Increase Conversion Rates. Scale Up Marketin
+				</span>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24.8" data-v-dadbc9a0=""><g data-name="Layer 2" data-v-dadbc9a0=""><g data-name="Layer 1" data-v-dadbc9a0=""><path fill="#fff" opacity=".1" d="M1.59 0h9.13v9.13H1.59zM15.87 0H25v9.13h-9.13zM15.48 14.29h9.13v9.13h-9.13zM1.59 14.29h9.13v9.13H1.59z" data-v-dadbc9a0=""></path><path d="M9.13 1.59H0v9.13h9.13V1.59zM7 3.43v5H2v-5zM9.13 15.67H0v9.13h9.13zM7 17.65v5H2v-5zM23.41 15.67h-9.12v9.13h9.13zm-1.91 2v5h-5v-5zM23.41 1.59h-9.12v9.13h9.13zM21.5 3.65v5h-5v-5z" fill="#ff5f58" data-v-dadbc9a0=""></path><path fill="#fff" d="M3.97 5.65h10.32v1H3.97zM9.13 19.54h10.32v1H9.13zM4.06 21.04V10.72h1v10.32zM18.55 15.67V5.35h1v10.32z" data-v-dadbc9a0=""></path></g></g></svg>
+				digital media marketing
+				<span>
+					Increase Conversion Rates. Scale Up Marketin
+				</span>
+			</a>
+		</li>
+	</ul>
 </div>
 
 
@@ -63,7 +110,8 @@ get_header();?>
 				<div class="row">
 					<div class="col-md-6">
 						<span class="heading_block_left_section-2--home_page">
-							backend + api
+							<img height="25px"  src="https://villaextechnologies.com/assets/images/server-icon.svg">
+						backend + api
 						</span>
 						<p class="description_left_block_section_2--home_page">
 							 Laravel backend with an API that makes it easy to create smart contracts on demand as well as access and manage all date stored on the database.
@@ -72,7 +120,7 @@ get_header();?>
 					<div class="col-md-6">
 						<div class="row">
 							<span class="heading_block_left_section-2--home_page">
-								Web App
+								<img height="25px" src="https://villaextechnologies.com/assets/images/web-icon.png">Web App
 							</span>
 							<p class="description_left_block_section_2--home_page">
 								 A clean web interface with full control of the database and all the service features.
@@ -80,7 +128,7 @@ get_header();?>
 						</div>
 						<div class="row">
 							<span class="heading_block_left_section-2--home_page">
-								iOS & Andoid App
+								<img height="25px" src="https://villaextechnologies.com/assets/images/android-icon.png">iOS & Andoid App
 							</span>
 							<p class="description_left_block_section_2--home_page">
 								 An app working with the API and geolocation services.
