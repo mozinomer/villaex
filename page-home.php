@@ -307,57 +307,27 @@ get_header();?>
 			</h6>
 		</div>
 		<div class="row">
+			<?php $data_query =  new WP_Query(array('post_type' => 'post', 'order_by','Des','posts_per_page' => 3));?>
+			<?php while ( $data_query->have_posts() ) : $data_query->the_post();?>
 			<div class="blog-column col-md-4">
-				<div class="row">
-					<img src="https://www.outsourcedesigning.com/wp-content/uploads/2019/05/designesty_featured_img.jpg" width="270px" height="190px">
+				<div class="container">
+					<div class="row the_post_thumbnail_blog_home">
+						<?php the_post_thumbnail(); ?>
+					</div>
+					<div class="row">
+						<h4 class="blog_heading_title--homepage">
+							<?php the_title(); ?>
+						</h4>
+						<p class="excerpt_blog--homepage">
+							<?php the_content(); ?>
+						</p>
+					</div>
+					<span class="pusblished_blog_date--home_page">
+						<?php echo the_date(); ?>
+					</span>
 				</div>
-				<div class="row">
-					<h4 class="blog_heading_title--homepage">
-						Creative Design
-					</h4>
-					<p class="excerpt_blog--homepage">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliquam.
-					</p>
-				</div>
-				<span class="pusblished_blog_date--home_page">
-					20 Nov, 2018
-				</span>
 			</div>
-			<div class="blog-column col-md-4">
-				<div class="row">
-					<img src="https://www.outsourcedesigning.com/wp-content/uploads/2019/05/designesty_featured_img.jpg" width="270px" height="190px">
-				</div>
-				<div class="row">
-					<h4 class="blog_heading_title--homepage">
-						Creative Design
-					</h4>
-					<p class="excerpt_blog--homepage">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliquam.
-					</p>
-				</div>
-				<span class="pusblished_blog_date--home_page">
-					20 Nov, 2018
-				</span>
-			</div>
-			<div class="blog-column col-md-4">
-				<div class="row">
-					<img src="https://www.outsourcedesigning.com/wp-content/uploads/2019/05/designesty_featured_img.jpg" width="270px" height="190px">
-				</div>
-				<div class="row">
-					<h4 class="blog_heading_title--homepage">
-						Creative Design
-					</h4>
-					<p class="excerpt_blog--homepage">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliquam.
-					</p>
-				</div>
-				<span class="pusblished_blog_date--home_page">
-					20 Nov, 2018
-				</span>
-			</div>
+			<?php endwhile;?>
 		</div>
 		<div class="row button_row_blog">
 			<a href="#" class="Browse_all--home-page">Browse all</a>
