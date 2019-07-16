@@ -340,7 +340,7 @@ get_header();?>
 		<div class="heaidng_join">
 			join our team
 		</div>
-		<div class="row">
+		<div class="row main_row_join_our_team--homepage">
 			<div class="block_left_join_out_team1">
 				<div class="row">
 					<h2>
@@ -357,13 +357,48 @@ get_header();?>
 				</div>
 					<img class="icon_shake1" src="<?php echo get_template_directory_uri(); ?>/includes/images/join_our_team/careers-icon.png" width="27px">
 			</div>
+			<div class="block_right_join_our_team--homepage">
+				<div class="display_flex">
+					<span>
+					careers
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="heaidng_join heaidng_join1">
+			Start Your Project
+		</div>
+		<div class="row main_row_join_our_team--homepage">
+			<div class="block_right_join_our_team--homepage block_right_join_our_team--homepage1">
+				<div class="display_flex">
+					<span>
+						Inquire
+						<span>
+							We Will respond you within 24 hours
+						</span>
+					</span>
+				</div>
+			</div>
+			<div class="block_left_join_out_team1 block_left_join_out_team21">
+				<div class="row">
+					<h2>
+						Do you have a project in mind?
+					</h2>
+				</div>
+				<div class="row applynow_row  applynow_row1">
+					<span class="applynow_text--home">
+						Let's start your project
+					</span>
+					<span class="button_arrow_block_join_our_team margin_0auto">
+						<a href="#">
+					<img src="<?php echo get_template_directory_uri(); ?>/includes/images/join_our_team/arrow.png" width="27px">
+					</a>
+					</span>
+				</div>
+					<img class="icon_shake1 icon_shake21" src="<?php echo get_template_directory_uri(); ?>/includes/images/join_our_team/projects-icon.png" width="27px">
+			</div>
 		</div>
 	</div>
 </div>
 
 <?php get_footer();?>
-
-
-
-
-

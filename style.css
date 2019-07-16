@@ -431,10 +431,12 @@ span.pusblished_blog_date--home_page {
     text-transform: capitalize;
     font-size: 40px;
     color: #1f1f1f;
+    margin-bottom: 80px;
 }
 .block_left_join_out_team1
 {
     width: 611px;
+    float: left;
     position: relative;
     height: 390px;
     display: block;
@@ -465,10 +467,10 @@ span.pusblished_blog_date--home_page {
 }
 span.button_arrow_block_join_our_team img {
     width: 39px;
-    height: 28px;
+    height: 24px;
     margin: 0 auto;
     display: block;
-    margin-top: 8px;
+    margin-top: 6px;
 }
 .applynow_text--home
 {
@@ -483,4 +485,74 @@ span.button_arrow_block_join_our_team img {
     position: absolute;
     bottom: 40px;
     right: 50px;
+}
+.block_right_join_our_team--homepage {
+    display: block;
+    width: 196px;
+    height: 196px;
+    border: 4px solid #4691a8;
+    float: left;
+}
+.main_row_join_our_team--homepage
+{
+    display: block;
+    width: 834px;
+    margin: 0 auto;
+    display: flex;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+.block_right_join_our_team--homepage .display_flex span
+{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    color: #4691a8;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.block_left_join_out_team21
+{
+    background: url('./includes/images/join_our_team/careers.svg');
+}
+.block_right_join_our_team--homepage1 .display_flex span>span
+{
+    font-size: 13px;
+    display: block;
+    width: 80%;
+    color: #044e5e;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.block_right_join_our_team--homepage1
+{
+    border-color: #02273b;
+}
+.block_right_join_our_team--homepage1 .display_flex span
+{
+    color: #02273b;
+}
+.block_left_join_out_team21 h2
+{
+    left: 30px;
+}
+.icon_shake21
+{
+    left: 50px;
+    width: 110px;
+}
+.applynow_row1
+{
+    right: 30px;
+    width: auto;
+    left: auto;
+}
+.margin_0auto
+{
+    margin: 0 auto;
+}
+.heaidng_join1
+{
+    margin-top: 50px;
 }
