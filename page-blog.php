@@ -22,27 +22,43 @@ $args = array (
 // The Query
 $services = new WP_Query( $args );
 ?>
-<!-- // The Loop -->
+// The Loop
 <ul class="nav nav-tabs" id="myTab" role="tablist">
 	<?php
-	$link_tabs_id = 0;
 	if ( $services->have_posts() ) {
 		while ( $services->have_posts() ) {
-			$services->the_post();
-
-			?>
+			$services->the_post(); ?>
 		  <li class="nav-item">
-		    <a class="nav-link active" data-toggle="tab" href="<?php echo 'tabs'.$link_tabs_id; ?>" role="tab"><?php the_title(); ?></a>
+		    <a class="nav-link active" data-toggle="tab" href="#<?php echo get_the_ID();?>" role="tab" aria-controls="home"><?php the_title(); ?></a>
 		  </li>
-	<?php
-	$link_tabs_id++;
-} ?>
+	<?php } ?>
 </ul>
+
 <div class="tab-content">
-  <div class="tab-pane active" id="<?php echo 'tabs'.$link_tabs_id; ?>" ><?php the_title(); ?></div>
+	<?php
+		// WP_Query arguments
+		$args = array (
+			'post_type'              => array( 'post' ),
+			'post_status'            => array( 'publish' ),
+			'nopaging'               => true,
+			'order'                  => 'DSC',
+			'orderby'                => 'menu_order',
+		);
+
+		// The Query
+		$services = new WP_Query( $args );
+	if ( $services->have_posts() ) {
+		while ( $services->have_posts() ) {
+			$services->the_post(); ?>
+  <div class="tab-pane active" id="<?php echo get_the_ID();?>" role="tabpanel">
+
+  </div>
+  <?php } ?>
 </div>
 
-<?php } else {
+<?php
+	}
+else {
 	// no posts found
 }
 
