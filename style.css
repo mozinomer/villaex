@@ -577,3 +577,50 @@ span.button_arrow_block_join_our_team img {
     width: 100%;
     height: 100%;
 }
+
+.row.row_contains_blog img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.row.row_contains_blog {
+    margin: 50px 0px !important;
+    display: flex;
+    align-items: end;
+}
+.the_post_thumbnail_blog
+{
+    display: block;
+    height: 230px;
+}
+.row.breaducrumb_blog_post {
+    font-size: 11px;
+    text-transform: capitalize;
+    color: #24779a;
+}
+.row.the_title_blog_post {
+    font-size: 23px;
+    display: block;
+    margin: 14px 0px;
+}
+.row.the_excerpt_blog_post p {
+    font-size: 14px;
+    display: block;
+    margin: 20px 0px;
+    color: #5a5757cc;
+}
+span.timeadde {
+    font-size: 11px;
+    text-transform: capitalize;
+}
+span.image_container_author {
+    display: block;
+    background: red;
+    border: 1px solid #000;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
