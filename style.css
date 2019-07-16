@@ -865,12 +865,12 @@ ul.career_list_container li .row .col-md-4 .row {
 /*hoem apge header*/
 .heade_homepage {
     background: #4691a8;
-    height: 100vh;
+    height: 80vh;
 }
 .years_container {
     display: block;
-    width: 325px;
-    height: 325px;
+    width: 355px;
+    height: 355px;
     background: #02273b;
     color: #fff;
     padding: 20px 50px;
@@ -910,9 +910,62 @@ span.more_than {
 span.year_text {
     position: absolute;
     /* top: 0px; */
-    bottom: 60px;
+    bottom: 92px;
     display: block;
-    font-size: 40px;
+    font-size: 43px;
     font-weight: 600;
-    right: 11px;
+    right: 25px;
+}
+.heade_homepage .container {
+    position: relative;
+}
+.in_text-withline {
+    color: #fff;
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 201px;
+    bottom: 0;
+    margin: auto;
+    font-size: 44px;
+    font-weight: 600;
+    left: 432px;
+}
+.in_text-withline::before {
+    content: "";
+    display: block;
+    border: 3px dotted #fff;
+    position: absolute;
+    left: 53px;
+    width: 208px;
+    top: 34px;
+}
+.in_text-withline::after {
+    content: "";
+    border: 3px dotted #fff;
+    position: absolute;
+    left: 296px;
+    height: 595px;
+    display: block;
+    top: -136px;
+}
+.performing_research::before {
+    content: "";
+    display: block;
+    border: 3px dotted #fff;
+    transform: rotate(90deg);
+    position: absolute;
+    width: 160px;
+    left: -37px;
+    top: -87px;
+}
+
+.performing_research {
+    position: absolute;
+    color: #fff;
+    width: 207px;
+    display: block;
+    top: 450px;
+    left: 108px;
 }

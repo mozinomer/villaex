@@ -28,6 +28,12 @@ get_header();?>
 					</span>
 			</div>
 		</div>
+		<div class="in_text-withline">
+			in
+		</div>
+		<div class="performing_research">
+			Performing research & constant development
+		</div>
 	</div>
 </div>
 
