@@ -137,7 +137,6 @@ get_header();?>
 					<div class="col-md-3">
 						<a class="view_more_button_section_2--home_page view_more_button_section_2--home_page1" href="#">view</a>
 					</div>
-				</div>
 				<div class="row display_flex">
 					<div class="col-md-4">
 						<img src="<?php echo get_template_directory_uri(); ?>/includes/images/section4/1.png">
@@ -148,6 +147,7 @@ get_header();?>
 					<div class="col-md-4">
 						<img src="<?php echo get_template_directory_uri(); ?>/includes/images/section4/3.png">
 					</div>
+				</div>
 				</div>
 			</div>
 			<div class="float-right right_column_section_4--home_page">
@@ -171,7 +171,7 @@ get_header();?>
 						<div class="row">
 							<div class="col-md-12">
 								<div class="row">
-									<div class="col-md-6">
+									<div class="col-md-6 padding-right-left-0">
 										<span class="heading_block_left_section-2--home_page">
 											Web App
 										</span>
@@ -199,34 +199,36 @@ get_header();?>
 
 <div class="section_5--home_page">
 	<div class="container_hight-100">
-		<div class="row display_flex">
-			<div class="column_section-5--home_page">
-				<div class="row display_flex">
-					<div class="col-md-6">
-						<img src="https://villaextechnologies.com/assets/images/chat_support.png">
+		<div class="container">
+			<div class="row display_flex">
+				<div class="col-md-4">
+					<div class="row display_flex">
+						<div class="col-md-6">
+							<img src="https://villaextechnologies.com/assets/images/chat_support.png">
+						</div>
+						<div class="col-md-6">
+							<h4 class="heading_located_in_section-5--home_page">
+								located in New York
+							</h4>
+						</div>
 					</div>
-					<div class="col-md-6">
-						<h4 class="heading_located_in_section-5--home_page">
-							located in New York
-						</h4>
+				</div>
+				<div class="col-md-4 border-left-right__home_page--section_5">
+					<div class="row heaidng_clients_section-5">
+						150+
+					</div>
+					<div class="row Clients_satsisfied">
+						Satisfied Clients
 					</div>
 				</div>
-			</div>
-			<div class="column_section-5--home_page border-left-right__home_page--section_5">
-				<div class="row heaidng_clients_section-5">
-					150+
-				</div>
-				<div class="row Clients_satsisfied">
-					Satisfied Clients
-				</div>
-			</div>
-			<div class="column_section-5--home_page">
-				<div class="row">
-					<h4 class="heaidng_3_section_5--home_page">Curvy Egg</h4>
-				</div>
-				<div class="row">
-					<h5>Our Own AI Based</h5>
-					<h5>Chat Support Application</h5>
+				<div class="col-md-4">
+					<div class="row">
+						<h4 class="heaidng_3_section_5--home_page">Curvy Egg</h4>
+					</div>
+					<div class="row">
+						<h5>Our Own AI Based</h5>
+						<h5>Chat Support Application</h5>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -276,7 +278,7 @@ get_header();?>
 			</h6>
 		</div>
 		<div class="row">
-			<div class="blog-column">
+			<div class="blog-column col-md-4">
 				<div class="row">
 					<img src="https://www.outsourcedesigning.com/wp-content/uploads/2019/05/designesty_featured_img.jpg" width="270px" height="190px">
 				</div>
@@ -293,7 +295,7 @@ get_header();?>
 					20 Nov, 2018
 				</span>
 			</div>
-			<div class="blog-column">
+			<div class="blog-column col-md-4">
 				<div class="row">
 					<img src="https://www.outsourcedesigning.com/wp-content/uploads/2019/05/designesty_featured_img.jpg" width="270px" height="190px">
 				</div>
@@ -310,7 +312,7 @@ get_header();?>
 					20 Nov, 2018
 				</span>
 			</div>
-			<div class="blog-column">
+			<div class="blog-column col-md-4">
 				<div class="row">
 					<img src="https://www.outsourcedesigning.com/wp-content/uploads/2019/05/designesty_featured_img.jpg" width="270px" height="190px">
 				</div>
