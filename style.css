@@ -686,12 +686,58 @@ h3.display_block.realted_post-container_hading span {
 }
 .row_main_bg_career
 {
-    height: 80vh;
+    height: 60vh;
     background-size: cover !important;
 }
 h3.heading_container_main_career {
     font-size: 80px;
     text-align: center;
     color: #fff;
+}
+.heading_container_main_career_main p
+{
     text-transform: capitalize;
+    color: #fff;
+    font-weight: 1000;
+    font-size: 20px;
+}
+ul.career_list_container li .row .col-md-4 {
+    padding: 0px;
+    font-size: 18px;
+}
+ul.career_list_container li .row .col-md-8 {
+    padding: 0px;
+}
+ul.career_list_container li {
+    margin: 20px 0px;
+    border-bottom: 1px solid #ccc;
+}
+ul.career_list_container {
+    list-style: none;
+    padding: 0px;
+    margin: 30px 0px 50px;
+}
+ul.career_list_container li .row .col-md-8 a {
+    text-transform: capitalize;
+    padding-left: 20px;
+    color: #000;
+    font-weight: 1000;
+    font-size: 19px;
+}
+ul.career_list_container li .row .col-md-4 .row .col-md-6:first-child {
+    text-align: right;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-right: 1px solid #000;
+}
+ul.career_list_container li .row .col-md-4 .row .col-md-6:last-child {
+    font-size: 18px;
+    text-align: left;
+    text-transform: capitalize;
+}
+ul.career_list_container li .row .col-md-4 .row {
+    padding-left: 120px;
+}
+.row_main_bg_career.display_flex {
+    margin-bottom: 40px;
 }
