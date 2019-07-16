@@ -753,14 +753,20 @@ ul.career_list_container li .row .col-md-4 .row {
 }
 
 .projects_container .col-md-4:last-child,
-.projects_container .col-md-4:nth-child(1n-1)
+.projects_container .col-md-4:nth-child(3n)
+{
+    border-right: 0;
+}
+.projects_container .col-md-4:last-child,
+.projects_container .col-md-4:nth-last-child(2),
+.projects_container .col-md-4:nth-last-child(3)
 {
     border-bottom: 0;
 }
 
 .images_projects_container
 {
-    border: 2px dotted #ccc;
+    border: 4px dotted #000;
     min-height: 260px;
     border-left: 0;
     border-top: 0;
