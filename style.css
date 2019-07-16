@@ -684,3 +684,14 @@ h3.display_block.realted_post-container_hading span {
 .row.the_content_single p br {
     display: none;
 }
+.row_main_bg_career
+{
+    height: 80vh;
+    background-size: cover !important;
+}
+h3.heading_container_main_career {
+    font-size: 80px;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+}
