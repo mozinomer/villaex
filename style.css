@@ -29,22 +29,7 @@ img
 {
 	width: 100%;
 	/*display: flex;*/
-}
-.col-md-6
-{
-	width: 50%;
-	float: left;
-}
-.col-md-4
-{
-	width: 33.3%;
-	float: left;
-	padding: 10px;
-}
-.col-md-12
-{
-	width: 100%;
-	float: left;
+    margin: 0px !important;
 }
 .text-center
 {
@@ -58,27 +43,9 @@ img
     width: 100%;
 
 }
-.col-md-5
-{
-	width: 40%;
-}
-.push-right
-{
-	margin-right: 0px;
-}
 .float-right
 {
 	float: right;
-}
-.col-md-9
-{
-	width: 80%;
-	float: left;
-}
-.col-md-3
-{
-	width: 20%;
-	float: left;
 }
 .padding-right-0
 {
