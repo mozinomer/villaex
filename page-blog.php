@@ -5,39 +5,50 @@
 	</div>
 </div>
 
-<div class="row main_container_blog_top">
+
+<h2>Vertical Tabs</h2>
+<p>Click on the buttons inside the tabbed menu:</p>
+<?php
+
+// WP_Query arguments
+$args = array (
+	'post_type'              => array( 'post' ),
+	'post_status'            => array( 'publish' ),
+	'nopaging'               => true,
+	'order'                  => 'DSC',
+	'orderby'                => 'menu_order',
+);
+
+// The Query
+$services = new WP_Query( $args );
+?>
+<!-- // The Loop -->
+<ul class="nav nav-tabs" id="myTab" role="tablist">
 	<?php
-	// WP_Query arguments
-	$args = array (
-		'post_type'              => array( 'post' ),
-		'post_status'            => array( 'publish' ),
-		'nopaging'               => true,
-		'order'                  => 'DSC',
-		'orderby'                => 'menu_order',
-	);
-
-	// The Query
-	$services = new WP_Query( $args );
-
-	// The Loop
+	$link_tabs_id = 0;
 	if ( $services->have_posts() ) {
 		while ( $services->have_posts() ) {
-			$services->the_post(); ?>
-	<div class="row">
-		<div class="col-md-6">
-			<span class="image_top_blog_post"><?php the_post_thumbnail(); ?></span>
-		</div>
-		<div class="col-md-6">
-			<span class="titel_top_blog_post"><?php the_title(); ?></span>
-		</div>
-	</div>
-	<?php }
-	} else {
-		// no posts found
-	}
+			$services->the_post();
 
-	// Restore original Post Data
-	wp_reset_postdata();
+			?>
+		  <li class="nav-item">
+		    <a class="nav-link active" data-toggle="tab" href="<?php echo 'tabs'.$link_tabs_id; ?>" role="tab"><?php the_title(); ?></a>
+		  </li>
+	<?php
+	$link_tabs_id++;
+} ?>
+</ul>
+<div class="tab-content">
+  <div class="tab-pane active" id="<?php echo 'tabs'.$link_tabs_id; ?>" ><?php the_title(); ?></div>
+</div>
+
+<?php } else {
+	// no posts found
+}
+
+// Restore original Post Data
+wp_reset_postdata();
 
 ?>
-</div>
+
+<?php get_footer();?>

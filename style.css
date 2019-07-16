@@ -523,3 +523,48 @@ span.button_arrow_block_join_our_team img {
 {
     margin-top: 50px;
 }
+
+
+
+
+/*blog page */
+
+
+.nav.nav-tabs {
+    float: right !important;
+    display: block;
+    margin-right: 20px;
+    border-bottom:0;
+    border-right: 1px solid #ddd;
+    padding-right: 15px;
+}
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    background: #ccc;
+}
+
+.nav-tabs .nav-link.active {
+    color: #495057;
+    /*background-color:#007bff !important;*/
+    border-color: 1px solid #000 !important;
+}
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 0rem!important;
+    border-top-right-radius: 0rem!important;
+}
+.tab-content>.active {
+    display: block;
+    /*background: #007bff;*/
+    min-height: 165px;
+}
+.nav.nav-tabs {
+    float: left;
+    display: block;
+    margin-right: 20px;
+    border-bottom: 0;
+    border-right: 1px solid transparent;
+    padding-right: 15px;
+}
