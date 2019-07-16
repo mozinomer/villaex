@@ -18,7 +18,7 @@
 
 <div class="row">
 	<div class="container">
-		<div class="row display_flex">
+		<div class="row display_flex projects_container">
 		<?php if( have_rows('projects') ):
 		    while ( have_rows('projects') ) : the_row();
 		        $images = get_sub_field('prejects_done');?>

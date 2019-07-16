@@ -751,14 +751,25 @@ ul.career_list_container li .row .col-md-4 .row {
     height: 100%;
     padding: 60px;
 }
+
+.projects_container .col-md-4:last-child,
+.projects_container .col-md-4:nth-child(1n-1)
+{
+    border-bottom: 0;
+}
+
 .images_projects_container
 {
     border: 2px dotted #ccc;
     min-height: 260px;
+    border-left: 0;
+    border-top: 0;
     align-items: center;
     display: flex;
     max-height: 260px;
 }
+
+
 .casestudy_heaing
 {
     display: block;
