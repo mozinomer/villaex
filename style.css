@@ -1106,3 +1106,24 @@ h3.heaidng_right_section_3_section-3--home_page img
     color: #fff;
     text-decoration: none;
 }
+
+
+
+
+/*foooter*/
+.row.footer-top_row .col-md-4 {
+    display: flex;
+    align-items: center;
+}
+
+.row.footer-top_row .col-md-4 span {
+    width: 80%;
+    display: block;
+    float: left;
+}
+.row.footer-top_row .col-md-4 img {
+    width: 40px;
+    float: left;
+    margin-right: 10px;
+    margin-top: -52px;
+}
