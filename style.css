@@ -284,7 +284,7 @@ p {
     color: #2f4794;
     font-weight: 600;
     font-size: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     margin-top: -20px;
 }
 .section_5--home_page
@@ -1072,8 +1072,12 @@ ul.list_items_header_hompage {
     float: left;
     margin-right: 7px;
 }
-.h3.heaidng_right_section_3_section-3--home_page img {
+h3.heaidng_right_section_3_section-3--home_page img
+{
     width: auto;
     float: left;
     margin-right: 10px;
+}
+.float-right.right_column_section_4--home_page .row .col-md-12 {
+    padding: 0px;
 }
