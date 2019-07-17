@@ -21,7 +21,7 @@
 
 
 <?php if (!is_front_page()) { ?>
-	<header>
+	<header id="main-header">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">

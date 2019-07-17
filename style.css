@@ -892,7 +892,7 @@ ul.career_list_container li .row .col-md-4 .row {
 .top_row_casestudies
 {
     display: block;
-    margin: 50px 0px !important;
+    margin: 20px 0px 50px !important;
 }
 .button_link_casestudiesa a
 {
@@ -1242,4 +1242,32 @@ h3.heaidng_right_section_3_section-3--home_page img
     padding: 4px;
     display: block;
     text-transform: capitalize;
+}
+
+
+/*header main*/
+#main-header img
+{
+    width: 200px;
+    height: 96px;
+}
+header#main-header {
+    background: #fff;
+    border-bottom: 1px solid #cccc;
+}
+header#main-header .container .row {
+    display: flex;
+    align-items: center;
+}
+header#main-header ul li a {
+    text-transform: capitalize;
+    color: #02273b;
+}
+header#main-header ul li {
+    margin-left: 20px;
+}
+header#main-header ul {
+    display: flex;
+    list-style: none;
+    float: right;
 }
