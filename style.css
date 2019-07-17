@@ -292,12 +292,13 @@ p {
     float: left;
     width: 100%;
     background-color: #02263b;
-    height: 244px;
+    height: 276px;
     color: #fff;
     margin-bottom: 50px;
-    padding: 20px 0px 34px;
-    display: block;
+    padding: 39px 0px 34px;
+    display: flex;
     margin-top: 40px;
+    align-items: center;
 }
 .section_6--home_page.case_studies_section--homepage .container .row {
     display: block;
@@ -380,7 +381,7 @@ p {
 .casestudies-description_homepage
 {
 	width: 85%;
-	margin: 0 auto 30px;
+	margin: 0 auto 70px;
 	font-size: 17px;
 }
 .section_7--home_page.blog .container .row {
@@ -1042,7 +1043,7 @@ ul.list_items_header_hompage li a svg {
     margin-right: 10px;
 }
 ul.list_items_header_hompage li a span {
-    font-size: 20px;
+    font-size:18px;
     /*padding-left: 20px;*/
     display: block;
 }
@@ -1057,7 +1058,7 @@ ul.list_items_header_hompage {
     list-style: none;
     color: #fff;
     text-transform: capitalize;
-    font-size: 39px;
+    font-size: 34px;
     position: absolute;
     left: 57%;
     top: 120px;
