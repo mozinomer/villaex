@@ -49,10 +49,35 @@
 		<div class="row icons_container_social">
 			<ul>
 				<li>
-
+					<a href="#">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="fab fa-twitter"></i>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="fab fa-quora"></i>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="fab fa-linkedin-in"></i>
+					</a>
 				</li>
 			</ul>
 		</div>
+	</div>
+	<div class="row all_right_reserved">
+		2018 villaex Technologies | all right reserved
 	</div>
 </footer>
 
