@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 
 require_once dirname( __File__ ) . '/includes/scripts.php';
@@ -6,23 +6,24 @@ require_once dirname( __File__ ) . '/includes/options.php';
 require_once dirname( __File__ ) . '/includes/theme_supports.php';
 
 
-// adding services post_type
+// adding Case Studies post_type
 
 add_theme_support('post-thumbnails');
-add_post_type_support( 'Services', 'thumbnail' );    
+
+add_post_type_support( 'case_studies', 'thumbnail' );
 // Our custom post type function
 function create_posttype() {
- 
-    register_post_type( 'services',
+
+    register_post_type( 'case_studies',
     // CPT Options
         array(
             'labels' => array(
-                'name' => __( 'Services' ),
-                'singular_name' => __( 'Services' )
+                'name' => __( 'Case Studies' ),
+                'singular_name' => __( 'Case Studies' )
             ),
             'public' => true,
             'has_archive' => true,
-            'rewrite' => array('slug' => 'services'),
+            'rewrite' => array('slug' => 'Case_Studies'),
             'supports' => array( 'title', 'editor',  'exerpts' )
         )
     );
@@ -30,9 +31,9 @@ function create_posttype() {
 // Hooking up our function to theme setup
 add_action( 'init', 'create_posttype' );
 add_theme_support('post-thumbnails');
-add_post_type_support( 'services', 'thumbnail' ); 
+add_post_type_support( 'case_studies', 'thumbnail' );
 
 function wpcodex_add_excerpt_support_for_post() {
-    add_post_type_support( 'services', 'excerpt' );
+    add_post_type_support( 'case_studies', 'excerpt' );
 }
 add_action( 'init', 'wpcodex_add_excerpt_support_for_post' );

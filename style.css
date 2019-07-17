@@ -1248,8 +1248,8 @@ h3.heaidng_right_section_3_section-3--home_page img
 /*header main*/
 #main-header img
 {
-    width: 200px;
-    height: 96px;
+    width: 136px;
+    height: 64px;
 }
 header#main-header {
     background: #fff;
@@ -1261,13 +1261,15 @@ header#main-header .container .row {
 }
 header#main-header ul li a {
     text-transform: capitalize;
-    color: #02273b;
+    color: #4691a8;
+    font-size: 19px;
 }
 header#main-header ul li {
-    margin-left: 20px;
+    margin-left: 45px;
 }
 header#main-header ul {
     display: flex;
     list-style: none;
     float: right;
+    margin: 0;
 }
