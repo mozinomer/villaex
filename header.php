@@ -24,7 +24,16 @@
 	<header>
 		<div class="container">
 			<div class="row">
-
+				<div class="col-md-6">
+					<?php
+					   $custom_logo_id = get_theme_mod( 'custom_logo' );
+					   $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+					?>
+					<a href="<?php bloginfo('url');?>"><img src="<?php echo $image[0]; ?>" alt=""></a>
+				</div>
+				<div class="col-md-6">
+					<?php wp_nav_menu( array( 'theme_location' => 'my-custom-menu' ) ); ?>
+				</div>
 			</div>
 		</div>
 	</header>
