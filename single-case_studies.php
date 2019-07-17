@@ -5,7 +5,7 @@
 	<div class="container">
 		<ul>
 			<li>
-				<a href="#">Home</a>
+				<a href="<?php bloginfo('url');?>">Home</a>
 			</li>
 			<li>
 				<a href="#">case studies</a>

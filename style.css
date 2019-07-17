@@ -1393,7 +1393,9 @@ header#main-header ul {
 }
 .row.bread_crumb_contaienr ul li a {
     color: #fff;
-    font-size: 14px;
+    font-size: 15px;
+    text-transform: capitalize;
+    display: block;
 }
 
 .row.bread_crumb_contaienr ul li::after {
@@ -1404,7 +1406,10 @@ header#main-header ul {
     position: absolute;
     background: #fff;
     right: 0px;
-    top: 8px;
+    top: 2px;
+}
+.row.bread_crumb_contaienr ul li:last-child::after {
+    display: none;
 }
 .row.bread_crumb_contaienr ul li {
     margin-right: 14px;
@@ -1414,7 +1419,9 @@ header#main-header ul {
 .row.bread_crumb_contaienr ul {
     display: flex;
     list-style: none;
+    margin: 0;
 }
 .row.bread_crumb_contaienr {
     background: #4691a9;
+    padding: 5px 0px;
 }
