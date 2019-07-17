@@ -26,21 +26,52 @@
 <div class="row bg-dark_single_casestudie">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-8">
 				<h3>
 					<?php the_title(); ?>
 				</h3>
-				<p>
 					<?php the_content(); ?>
-				</p>
 			</div>
-
+			<div class="col-md-4">
+				<h3>
+					<?php echo "Solution"; ?>
+				</h3>
+                <?php if( have_rows('solution_provided') ): ?>
+                    <ul class="list-solutions_provided-single_casestudies">
+                    <?php while( have_rows('solution_provided') ): the_row(); ?>
+                        <li>
+                           <?php the_sub_field('solution_provided_list'); ?>
+                        </li>
+                    <?php endwhile; ?>
+                    </ul>
+                <?php endif; ?>
+			</div>
 		</div>
 	</div>
 </div>
+
+<div class="row second_image_contaienr">
+	<div class="container">
+		<?php
+			$second_image = get_field('section_2_image');
+		?>
+		<img src="<?php echo $second_image['url']; ?>">
+		<p class="section_2_text_single_case">
+			<?php the_field('section_2_text'); ?>
+		</p>
+	</div>
+</div>
+
+<div class="row bg-dark_single_casestudie section_4_text-single_case">
+	<div class="container">
+		<?php the_field('section_4_text'); ?>
+	</div>
+</div>
+
+
+<div class="row bg-dark_single_casestudie">
 
 
 <?php
 	endwhile;
 get_footer(); ?>
-
