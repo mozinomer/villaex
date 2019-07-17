@@ -1425,3 +1425,69 @@ header#main-header ul {
     background: #4691a9;
     padding: 5px 0px;
 }
+
+/*career form*/
+
+
+.row.top_row_container {
+    border-bottom: 1px solid #cccc;
+    padding: 40px 0px;
+    font-size: 20px;
+}
+.row.top_row_container p {
+    text-transform: capitalize;
+    margin: 0px;
+    padding: 0px;
+}
+
+.row.top_row_container h3 {
+    font-size: 33px;
+    font-weight: 1000;
+}
+.row.from-row_container h2 {
+    font-size: 33px;
+    text-transform: capitalize;
+    font-weight: 1000;
+}
+.contaienr_ormf
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.row.from-row_container {
+    margin: 40px 0px !important;
+}
+.container.contaienr_ormf form input[type='text'],
+.container.contaienr_ormf form input[type='email'],
+.container.contaienr_ormf form input[type='tel'],
+.container.contaienr_ormf form textarea {
+    border: 2px solid #0c2b5a !important;
+    /* width: 20px !important; */
+    height: 48px !important;
+    color: #000;
+}
+.container.contaienr_ormf form textarea
+{
+    height: 180px !important;
+    max-height: 180px;
+    min-height: 180px;
+    min-width: 100%;
+}
+.wpforms-submit-container button {
+    background: #4691a8 !important;
+    color: #fff !important;
+}
+
+.wpforms-submit-container {
+    position: relative;
+    width: 100% !important;
+    clear: none;
+    border: 1px solid #cccc !important;
+    /* left: 0px; */
+    text-align: center;
+    /* margin: 27px 0px !important; */
+    padding: 20px !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    margin: 20px 0px !important;
+}
