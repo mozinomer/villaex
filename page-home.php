@@ -12,6 +12,11 @@ get_header();?>
 
 <div class="heade_homepage">
 	<div class="container">
+		<div class="header_menu_main">
+			<?php wp_nav_menu( array( 'theme_location' => 'my-custom-menu' ) ); ?>
+		</div>
+	</div>
+	<div class="container">
 		<div class="years_container">
 			<span class="compnaY_name">
 				villaex technologies

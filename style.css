@@ -973,7 +973,7 @@ span.year_text {
     margin: auto;
     font-size: 44px;
     font-weight: 600;
-    left: 432px;
+    left: 412px;
 }
 .in_text-withline::before {
     content: "";
@@ -1060,7 +1060,7 @@ ul.list_items_header_hompage {
     font-size: 39px;
     position: absolute;
     left: 57%;
-    top: 80px;
+    top: 120px;
     width: 548px;
     /* background: rebeccapurple; */
     border-left: 7px dotted #fff;
@@ -1080,4 +1080,28 @@ h3.heaidng_right_section_3_section-3--home_page img
 }
 .float-right.right_column_section_4--home_page .row .col-md-12 {
     padding: 0px;
+}
+.header_menu_main ul {
+    display: flex;
+    list-style: none;
+    /*background: red;*/
+    width: 369px;
+    position: absolute;
+    right: 50px;
+    padding: 0px;
+    top: 10px;
+}
+.header_menu_main ul li
+{
+    margin: auto;
+}
+.header_menu_main ul li a
+{
+    color: #fff;
+    text-transform: capitalize;
+}
+.header_menu_main ul li a:hover
+{
+    color: #fff;
+    text-decoration: none;
 }
