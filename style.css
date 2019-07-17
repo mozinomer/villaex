@@ -516,7 +516,7 @@ span.pusblished_blog_date--home_page {
     position: relative;
     bottom: 0px;
     width: 88px;
-    height: 37px;
+    height: 43px;
     display: block;
     border: 3px solid #fff;
 }
@@ -908,7 +908,7 @@ ul.career_list_container li .row .col-md-4 .row {
 /*hoem apge header*/
 .heade_homepage {
     background: #4691a8;
-    height: 80vh;
+    height: 90vh;
 }
 .years_container {
     display: block;
@@ -984,15 +984,6 @@ span.year_text {
     width: 208px;
     top: 34px;
 }
-.in_text-withline::after {
-    content: "";
-    border: 3px dotted #fff;
-    position: absolute;
-    left: 296px;
-    height: 595px;
-    display: block;
-    top: -136px;
-}
 .performing_research::before {
     content: "";
     display: block;
@@ -1053,6 +1044,7 @@ ul.list_items_header_hompage li a svg {
 ul.list_items_header_hompage li a span {
     font-size: 20px;
     /*padding-left: 20px;*/
+    display: block;
 }
 ul.list_items_header_hompage li a:hover
 {
@@ -1067,10 +1059,12 @@ ul.list_items_header_hompage {
     text-transform: capitalize;
     font-size: 39px;
     position: absolute;
-    right: 300px;
+    left: 57%;
     top: 80px;
-    width: 496px;
+    width: 548px;
     /* background: rebeccapurple; */
+    border-left: 7px dotted #fff;
+    padding-left: 40px;
 }
 .heading_block_left_section-2--home_page img
 {
