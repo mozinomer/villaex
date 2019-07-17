@@ -1371,3 +1371,50 @@ header#main-header ul {
 {
     padding: 100px 0px;
 }
+.container_next-previous
+{
+    position: relative;
+        display: flex;
+    align-items: center;
+}
+.previous_post_link
+{
+    position: absolute;
+    left: 0px;
+}
+.nexT-posT-link
+{
+    position: absolute;
+    right: 0px;
+}
+.bg-dark_single_casestudie1
+{
+    align-items: center;
+}
+.row.bread_crumb_contaienr ul li a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.row.bread_crumb_contaienr ul li::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 20px;
+    position: absolute;
+    background: #fff;
+    right: 0px;
+    top: 8px;
+}
+.row.bread_crumb_contaienr ul li {
+    margin-right: 14px;
+    position: relative;
+    padding-right: 14px;
+}
+.row.bread_crumb_contaienr ul {
+    display: flex;
+    list-style: none;
+}
+.row.bread_crumb_contaienr {
+    background: #4691a9;
+}

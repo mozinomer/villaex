@@ -1,6 +1,21 @@
 <?php get_header();
 	while (have_posts() ) : the_post();
 ?>
+<div class="row bread_crumb_contaienr">
+	<div class="container">
+		<ul>
+			<li>
+				<a href="#">Home</a>
+			</li>
+			<li>
+				<a href="#">case studies</a>
+			</li>
+			<li>
+				<a href="#"><?php the_title(); ?></a>
+			</li>
+		</ul>
+	</div>
+</div>
 <?php
 	$images = get_field('background_image'); ?>
 <div class="row maing_top_caontainer_single_case" style="background: url('<?php echo $images['url']; ?>');">
@@ -69,7 +84,16 @@
 </div>
 
 
-<div class="row bg-dark_single_casestudie">
+<div class="row bg-dark_single_casestudie bg-dark_single_casestudie1">
+	<div class="container container_next-previous">
+		<span class="previous_post_link">
+			<?php previous_post_link();  ?>
+		</span>
+		<span class="nexT-posT-link">
+			<?php next_post_link();  ?>
+		</span>
+	</div>
+</div>
 
 
 <?php
