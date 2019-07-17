@@ -1273,3 +1273,46 @@ header#main-header ul {
     float: right;
     margin: 0;
 }
+
+
+/*single case studies*/
+
+.the_post_thumbnail_single_case .col-md-4 img
+{
+    height: 200px;
+    width: 200px;
+}
+.the_excerpt_single_case p {
+    color: #fff;
+    /* font-weight: 600; */
+    width: 44%;
+    font-size: 30px;
+    text-transform: capitalize;
+    background: transparent;
+}
+.maing_top_caontainer_single_case
+{
+    padding: 50px 0px;
+}
+.btton_container_lets_workTogether
+{
+    padding: 10px 50px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 600;
+}
+.btton_container_lets_workTogether:hover
+{
+    color: #fff;
+}
+.maing_top_caontainer_single_case
+{
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+}
+.bg-dark_single_casestudie {
+    background: #ccc;
+    padding: 40px 0px;
+}
