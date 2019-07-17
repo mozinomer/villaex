@@ -1125,5 +1125,36 @@ h3.heaidng_right_section_3_section-3--home_page img
     width: 40px;
     float: left;
     margin-right: 10px;
-    margin-top: -52px;
+    margin-top: -37px;
+}
+.row.footer-top_row .col-md-4 span a {
+    color: #000;
+    text-decoration: none;
+}
+
+.row.footer-top_row .col-md-4 span h4 {
+    font-weight: 600;
+    color: #488ca9;
+    margin: 0px;
+}
+.row.footer-top_row .col-md-4:nth-child(2) img {
+    height: 65px;
+    width: 39px;
+    margin-top: -19px;
+}
+.row.footer-top_row .col-md-4:nth-child(3) img {
+    height: 57px;
+    width: 48px;
+    display: block;
+    margin-top: -17px;
+}
+.row.footer-top_row .col-md-4:nth-child(1) img {
+    height: 45px;
+    width: 59px;
+    margin-top: -22px;
+}
+.row.footer-top_row {
+    margin: 40px 0px !important;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
 }

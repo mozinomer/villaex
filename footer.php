@@ -19,7 +19,7 @@
 				</span>
 			</div>
 			<div class="col-md-4">
-				<img height="25px"  src="<?php echo get_template_directory_uri(); ?>/includes/images/icons/footercontactus.png">
+				<img height="25px"  src="<?php echo get_template_directory_uri(); ?>/includes/images/icons/call us.png">
 				<span>
 					<h4>
 						Cotact Us
@@ -30,7 +30,7 @@
 				</span>
 			</div>
 			<div class="col-md-4">
-				<img height="25px"  src="<?php echo get_template_directory_uri(); ?>/includes/images/icons/footercontactus.png">
+				<img height="25px"  src="<?php echo get_template_directory_uri(); ?>/includes/images/icons/business inquiries.png">
 				<span>
 					<h4>
 						Cotact Us
