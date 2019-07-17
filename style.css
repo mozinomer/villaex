@@ -909,7 +909,7 @@ ul.career_list_container li .row .col-md-4 .row {
 /*hoem apge header*/
 .heade_homepage {
     background: #4691a8;
-    height: 90vh;
+    height: 700px;
 }
 .years_container {
     display: block;
@@ -979,21 +979,25 @@ span.year_text {
 .in_text-withline::before {
     content: "";
     display: block;
-    border: 3px dotted #fff;
+    border: 7px dotted #fff;
     position: absolute;
     left: 53px;
     width: 208px;
     top: 34px;
+    border-left: 0;
+    border-bottom: 0;
 }
 .performing_research::before {
     content: "";
     display: block;
-    border: 3px dotted #fff;
+    border: 7px dotted #fff;
     transform: rotate(90deg);
     position: absolute;
     width: 160px;
     left: -37px;
     top: -87px;
+    border-left: 0;
+    border-bottom: 0;
 }
 
 .performing_research {
