@@ -16,4 +16,22 @@
 <?php wp_head();?>
 <body>
 
+
+
+
+
+<?php if (!is_front_page()) { ?>
+	<header>
+		<div class="container">
+			<div class="row">
+
+			</div>
+		</div>
+	</header>
+<?php } ?>
+
+
+
+
 <div class="main_container">
+

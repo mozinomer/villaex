@@ -1024,7 +1024,7 @@ span.year_text {
     margin: 0px;
 }
 ul.list_items_header_hompage li {
-    line-height: 46px;
+    line-height: 37px;
     margin-bottom: 20px;
 }
 
@@ -1046,11 +1046,15 @@ ul.list_items_header_hompage li a span {
     font-size:18px;
     /*padding-left: 20px;*/
     display: block;
+    font-weight: 100;
 }
 ul.list_items_header_hompage li a:hover
 {
     color: #fff;
     text-decoration: none;
+}
+ul.list_items_header_hompage li:last-child {
+    margin: 0;
 }
 
 ul.list_items_header_hompage {
@@ -1058,14 +1062,19 @@ ul.list_items_header_hompage {
     list-style: none;
     color: #fff;
     text-transform: capitalize;
-    font-size: 34px;
+    font-size: 20px;
     position: absolute;
     left: 57%;
     top: 120px;
-    width: 548px;
+    width: 543px;
     /* background: rebeccapurple; */
     border-left: 7px dotted #fff;
-    padding-left: 40px;
+    padding-left: 14px;
+    margin: 0;
+}
+ul.list_items_header_hompage li a {
+    font-weight: 600;
+    font-size: 27px;
 }
 .heading_block_left_section-2--home_page img
 {
@@ -1091,6 +1100,7 @@ h3.heaidng_right_section_3_section-3--home_page img
     right: 50px;
     padding: 0px;
     top: 10px;
+    z-index: 9999;
 }
 .header_menu_main ul li
 {
@@ -1219,8 +1229,10 @@ h3.heaidng_right_section_3_section-3--home_page img
 }
 .row.icons_container_social ul li a i:hover {
     color: #fff;
-    background: #4691a8;
+    background: #02273b;
     transition: 0.3s all ease-in-out;
+    font-size: 12px;
+    line-height: 25px;
 }
 .row.all_right_reserved {
     background: #27282b;
