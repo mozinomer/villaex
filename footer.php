@@ -14,7 +14,7 @@
 						Cotact Us
 					</h4>
 					<p>
-						<a href="mail:info@villaextechnologies.com">info@villaextechnologies.com</a>
+						<a href="mailto:info@villaextechnologies.com">info@villaextechnologies.com</a>
 					</p>
 				</span>
 			</div>
@@ -22,10 +22,10 @@
 				<img height="25px"  src="<?php echo get_template_directory_uri(); ?>/includes/images/icons/call us.png">
 				<span>
 					<h4>
-						Cotact Us
+						Call Us
 					</h4>
 					<p>
-						<a href="mail:info@villaextechnologies.com">info@villaextechnologies.com</a>
+						<a href="tel:(551) 333 8519">(551) 333 8519</a>
 					</p>
 				</span>
 			</div>
@@ -33,13 +33,25 @@
 				<img height="25px"  src="<?php echo get_template_directory_uri(); ?>/includes/images/icons/business inquiries.png">
 				<span>
 					<h4>
-						Cotact Us
+						Business Inquiries
 					</h4>
 					<p>
-						<a href="mail:info@villaextechnologies.com">info@villaextechnologies.com</a>
+						<a href="mail:info@villaextechnologies.com">10 AM - 08 PM</a>
 					</p>
 				</span>
 			</div>
+		</div>
+		<div class="row follow_us_row">
+			<span>
+				follow us
+			</span>
+		</div>
+		<div class="row icons_container_social">
+			<ul>
+				<li>
+
+				</li>
+			</ul>
 		</div>
 	</div>
 </footer>
