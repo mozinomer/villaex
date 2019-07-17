@@ -31,7 +31,7 @@
                 					<a href="#">view Detail</a>
                 				</div>
                 				<div class="col-md-6">
-                					<a href="#">Apply</a>
+                					<a href="http://localhost/villa/career-form/">Apply</a>
                 				</div>
                 			</div>
                 		</div>
