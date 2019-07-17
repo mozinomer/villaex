@@ -119,7 +119,7 @@ get_header();?>
 				<div class="row">
 					<div class="col-md-6">
 						<span class="heading_block_left_section-2--home_page">
-							<img height="25px"  src="https://villaextechnologies.com/assets/images/server-icon.svg">
+							<img height="25px"  src="<?php echo get_template_directory_uri(); ?>/includes/images/icons/server-icon.svg">
 						backend + api
 						</span>
 						<p class="description_left_block_section_2--home_page">
@@ -129,7 +129,7 @@ get_header();?>
 					<div class="col-md-6">
 						<div class="row">
 							<span class="heading_block_left_section-2--home_page">
-								<img height="25px" src="https://villaextechnologies.com/assets/images/web-icon.png">Web App
+								<img height="25px" src="<?php echo get_template_directory_uri(); ?>/includes/images/icons/web-icon.png">Web App
 							</span>
 							<p class="description_left_block_section_2--home_page">
 								 A clean web interface with full control of the database and all the service features.
@@ -137,7 +137,7 @@ get_header();?>
 						</div>
 						<div class="row">
 							<span class="heading_block_left_section-2--home_page">
-								<img height="25px" src="https://villaextechnologies.com/assets/images/android-icon.png">iOS & Andoid App
+								<img height="25px" src="<?php echo get_template_directory_uri(); ?>/includes/images/icons/android-icon.png">iOS & Andoid App
 							</span>
 							<p class="description_left_block_section_2--home_page">
 								 An app working with the API and geolocation services.
@@ -183,6 +183,7 @@ get_header();?>
 			<div class="col-md-6 col-md-6-with-padding">
 				<div class="row">
 					<h3 class="heaidng_right_section_3_section-3--home_page">
+						<img height="25px"  src="<?php echo get_template_directory_uri(); ?>/includes/images/icons/server-icon.svg">
 						Backend + API
 					</h3>
 					<p>
@@ -192,6 +193,7 @@ get_header();?>
 				<div class="row">
 					<div class="col-md-6">
 						<h3 class="heaidng_right_section_3_section-3--home_page">
+							<img height="25px" src="<?php echo get_template_directory_uri(); ?>/includes/images/icons/web-icon.png">
 							 Web App
 						</h3>
 						<p>
@@ -200,6 +202,7 @@ get_header();?>
 					</div>
 					<div class="padding-right-0 col-md-6 col-md-6-with-padding ">
 						<h3 class="heaidng_right_section_3_section-3--home_page">
+							<img height="25px" src="<?php echo get_template_directory_uri(); ?>/includes/images/icons/android-icon.png">
 							 iOS & Andoid App
 						</h3>
 						<p>
