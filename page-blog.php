@@ -1,7 +1,23 @@
 <?php get_header(); ?>
 <div class="row">
 	<div class="container">
-		categies conaiener
+		<ul>
+		<?php $data_query =  new WP_Query(array('post_type' => 'post', 'order_by','Des', 'posts_per_page' => 3));?>
+		<?php while ( $data_query->have_posts() ) : $data_query->the_post();?>
+				<?php
+					$terms = get_the_terms( $post->ID , 'category' ) ? get_the_terms( $post->ID , 'category' ) : [];
+					// var_dump($terms);
+					if ( count( $terms ) > 0 ) { ?>
+
+						<?php foreach ( $terms as $term ) { ?>
+								<li>
+									<?php echo $term->name; ?>
+								</li>
+						<?php } ?>
+					<?php }
+				?>
+		<?php endwhile; ?>
+		</ul>
 	</div>
 </div>
 <div class="congtainer_main_tabs-blog">
@@ -18,7 +34,8 @@
 		<div class="col-md-5">
 			<ul class="list_contaienr_maiN_top">
 				<?php $data_query =  new WP_Query(array('post_type' => 'post', 'order_by','Des', 'posts_per_page' => 3));?>
-				<?php while ( $data_query->have_posts() ) : $data_query->the_post();?>
+				<?php while ( $data_query->have_posts() ) : $data_query->the_post();
+				?>
 							<li class="<?php the_ID(); ?>">
 								<h3>
 									<?php the_title(); ?>
