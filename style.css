@@ -1495,3 +1495,12 @@ header#main-header ul {
     border-right: 0 !important;
     margin: 20px 0px !important;
 }
+
+
+
+/*blog css*/
+.container_blog_post_main
+{
+    max-width: 100%;
+    width: 80%;
+}
