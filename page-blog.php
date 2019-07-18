@@ -2,21 +2,22 @@
 <div class="row">
 	<div class="container">
 		<ul>
-		<?php $data_query =  new WP_Query(array('post_type' => 'post', 'order_by','Des', 'posts_per_page' => 3));?>
-		<?php while ( $data_query->have_posts() ) : $data_query->the_post();?>
-				<?php
-					$terms = get_the_terms( $post->ID , 'category' ) ? get_the_terms( $post->ID , 'category' ) : [];
-					// var_dump($terms);
-					if ( count( $terms ) > 0 ) { ?>
-
-						<?php foreach ( $terms as $term ) { ?>
-								<li>
-									<?php echo $term->name; ?>
-								</li>
-						<?php } ?>
-					<?php }
-				?>
-		<?php endwhile; ?>
+			<?php
+	    $args = array(
+	        'type'                     => 'post', /* custom post type name */
+	        'parent'                   => '',
+	        'orderby'                  => 'id',
+	        'order'                    => 'ASC',
+	        'hide_empty'               => 1,
+	        'hierarchical'             => 1,
+	        'taxonomy'                 => 'category'  /* custom post type texonomy name */
+	    );
+	    $cats = get_categories($args);
+	    foreach ($cats as $cat) {
+	        $cat_id= $cat->term_id;
+	        $cat_name= $cat->name; ?>
+	        <li><?php echo '<a href="' . get_category_link( $cat_id ) . '">'.$cat->name.'</a>'; ?></li>
+	    <?php  } ?>
 		</ul>
 	</div>
 </div>
