@@ -81,5 +81,16 @@
 	</div>
 </footer>
 
+
+<script type="text/javascript">
+	jQuery(".list_contaienr_maiN_top li").click( function() {
+		$('.list_contaienr_maiN_top li').removeAttr('id');
+		$('.span_container img').hide();
+		$('.span_container .'+ this.className).show();
+		$(this).attr("id","SomeID");
+	})
+</script>
+
+
 </body>
 </html>

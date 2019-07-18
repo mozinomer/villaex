@@ -5,6 +5,35 @@
 	</div>
 </div>
 <div class="congtainer_main_tabs-blog">
+	<div class="row">
+		<div class="col-md-7">
+			<span class="span_container">
+			<?php $data_query =  new WP_Query(array('post_type' => 'post', 'order_by','Des', 'posts_per_page' => 3));?>
+				<?php while ( $data_query->have_posts() ) : $data_query->the_post();?>
+						<img class="<?php the_ID(); ?>" src="<?php echo get_the_post_thumbnail_url(); ?>">
+						<?php //the_post_thumbnail(); ?>
+			<?php endwhile; ?>
+				</span>
+		</div>
+		<div class="col-md-5">
+			<ul class="list_contaienr_maiN_top">
+				<?php $data_query =  new WP_Query(array('post_type' => 'post', 'order_by','Des', 'posts_per_page' => 3));?>
+				<?php while ( $data_query->have_posts() ) : $data_query->the_post();?>
+							<li class="<?php the_ID(); ?>">
+								<h3>
+									<?php the_title(); ?>
+								</h3>
+								<p>
+									<?php the_author(); ?>
+								</p>
+							</li>
+
+			<?php endwhile; ?>
+			</ul>
+		</div>
+	</div>
+
+
 
 </div>
 
