@@ -1586,6 +1586,10 @@ li#SomeID::before {
 {
     margin: auto;
 }
+.list_container_categories ul li:first-child
+{
+    margin-left: 0px;
+}
 .list_container_categories_row,
 .list_container_categories_row .container
 {
@@ -1596,4 +1600,90 @@ li#SomeID::before {
     height: 66px;
     font-size: 18px;
     text-transform: capitalize;
+    background: #fbfbfbcc;
+}
+.list_container_categories_row .container .row .col-md-6
+{
+    padding: 0px;
+}
+.list_container_categories ul li a
+{
+    color: #24779a;
+    font-weight: 600;
+    position: relative;
+    transition: width .4s ease;
+    padding-bottom: 5px;
+}
+.list_container_categories ul li a {
+    display: inline-block;
+    color: #24779a;
+    text-decoration: none;
+}
+
+.list_container_categories ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #24779a;
+    transition: width .3s;
+}
+
+.list_container_categories ul li a:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
+input#search {
+    padding-left: 10px;
+    border: 1px solid #cccc;
+}
+button.submit_butt::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    background: #fff;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    bottom: 0;
+        z-index: 999;
+    margin: auto;
+}
+
+button.submit_butt {
+    border: none;
+    color: #000;
+    position: relative;
+    font-size: 0px;
+    height: 30px;
+    margin-top: 0;
+    position: absolute;
+    top: 0px;
+    background: none;
+    right: 1px;
+    width: 30px;
+    border: none;
+}
+button.submit_butt::after {
+    content: "";
+    content: "";
+    position: absolute;
+    display: block;
+    width: 12px;
+    height: 13px;
+    border: 3px solid #ccc;
+    background: #fff;
+    top: 15px;
+    left: 0px;
+    right: -2px;
+    bottom: 0;
+    margin: auto;
+    border-left: 0;
+    border-bottom: 0;
+    border-top: 0;
+    transform: rotate(-45deg);
 }

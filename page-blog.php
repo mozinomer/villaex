@@ -18,12 +18,12 @@
 					    foreach ($cats as $cat) {
 					        $cat_id= $cat->term_id;
 					        $cat_name= $cat->name; ?>
-					        <li><?php echo '<a href="' . get_category_link( $cat_id ) . '">'.$cat->name.'</a>'; ?></li>
+					        <li><?php echo '<a class="underlineBtn" href="' . get_category_link( $cat_id ) . '">'.$cat->name.'</a>'; ?></li>
 					    <?php  }
 				    ?>
 				</ul>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 text-right">
 				<?php get_search_form(); ?>
 			</div>
 		</div>
