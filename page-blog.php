@@ -1,24 +1,32 @@
 <?php get_header(); ?>
-<div class="row">
+<div class="row list_container_categories_row">
 	<div class="container">
-		<ul>
-			<?php
-	    $args = array(
-	        'type'                     => 'post', /* custom post type name */
-	        'parent'                   => '',
-	        'orderby'                  => 'id',
-	        'order'                    => 'ASC',
-	        'hide_empty'               => 1,
-	        'hierarchical'             => 1,
-	        'taxonomy'                 => 'category'  /* custom post type texonomy name */
-	    );
-	    $cats = get_categories($args);
-	    foreach ($cats as $cat) {
-	        $cat_id= $cat->term_id;
-	        $cat_name= $cat->name; ?>
-	        <li><?php echo '<a href="' . get_category_link( $cat_id ) . '">'.$cat->name.'</a>'; ?></li>
-	    <?php  } ?>
-		</ul>
+		<div class="row">
+			<div class="col-md-6 list_container_categories">
+				<ul>
+					<?php
+					    $args = array(
+					        'type'                     => 'post', /* custom post type name */
+					        'parent'                   => '',
+					        'orderby'                  => 'id',
+					        'order'                    => 'ASC',
+					        'hide_empty'               => 1,
+					        'hierarchical'             => 1,
+					        'taxonomy'                 => 'category'  /* custom post type texonomy name */
+					    );
+					    $cats = get_categories($args);
+					    foreach ($cats as $cat) {
+					        $cat_id= $cat->term_id;
+					        $cat_name= $cat->name; ?>
+					        <li><?php echo '<a href="' . get_category_link( $cat_id ) . '">'.$cat->name.'</a>'; ?></li>
+					    <?php  }
+				    ?>
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<?php get_search_form(); ?>
+			</div>
+		</div>
 	</div>
 </div>
 <div class="congtainer_main_tabs-blog">

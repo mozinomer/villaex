@@ -1575,3 +1575,25 @@ li#SomeID::before {
     top: 91px;
     transform: rotate(45deg);
 }
+.list_container_categories ul
+{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.list_container_categories ul li
+{
+    margin: auto;
+}
+.list_container_categories_row,
+.list_container_categories_row .container
+{
+    display: flex;
+    align-items: center;
+}
+.row.list_container_categories_row {
+    height: 66px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
