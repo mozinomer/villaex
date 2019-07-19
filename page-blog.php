@@ -129,7 +129,7 @@
 						Get our daily newsletter from Villaex's founder Loren Baker about the latest news in the industry
 					</p>
 					<p>
-
+						<?php echo do_shortcode('[wpforms id="101"]'); ?>
 					</p>
 				</div>
 			</div>
