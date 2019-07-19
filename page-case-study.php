@@ -19,13 +19,12 @@
 <div class="row">
 	<div class="container">
 		<div class="row display_flex projects_container">
-		<?php if( have_rows('projects') ):
-		    while ( have_rows('projects') ) : the_row();
-		        $images = get_sub_field('prejects_done');?>
+			<?php $data_query =  new WP_Query(array('post_type' => 'case_studies', 'order_by','Des', 'posts_per_page' => -1));?>
+			<?php while ( $data_query->have_posts() ) : $data_query->the_post();?>
 		        <div class="col-md-4 images_projects_container">
-			        <img src="<?php echo $images['url']; ?>" alt="asd">
+			        <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
 				</div>
-		        <?php endwhile;endif;
+		        <?php endwhile;
 		?>
 		</div>
 	</div>

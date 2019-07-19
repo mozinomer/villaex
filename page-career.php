@@ -17,18 +17,18 @@
 		<h2 class="text-center">
 			Avaialable <?php the_title(); ?>
 		</h2>
-        <?php if( have_rows('avaiable_career') ): ?>
             <ul class="career_list_container">
-            <?php while( have_rows('avaiable_career') ): the_row(); ?>
+            <?php $data_query =  new WP_Query(array('post_type' => 'careers', 'order_by','Des', 'posts_per_page' => -1));?>
+            <?php while ( $data_query->have_posts() ) : $data_query->the_post();?>
                 <li>
                 	<div class="row">
                 		<div class="col-md-8">
-		                    <a href="#"><?php the_sub_field('avaiable_careers'); ?></a>
+		                    <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                 		</div>
                 		<div class="col-md-4">
                 			<div class="row">
                 				<div class="col-md-6">
-                					<a href="#">view Detail</a>
+                					<a href="<?php the_permalink(); ?>">view Detail</a>
                 				</div>
                 				<div class="col-md-6">
                 					<a href="http://localhost/villa/career-form/">Apply</a>
@@ -39,7 +39,6 @@
                 </li>
             <?php endwhile; ?>
             </ul>
-        <?php endif; ?>
 	</div>
 </div>
 

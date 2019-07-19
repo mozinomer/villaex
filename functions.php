@@ -37,3 +37,33 @@ function wpcodex_add_excerpt_support_for_post() {
     add_post_type_support( 'case_studies', 'excerpt' );
 }
 add_action( 'init', 'wpcodex_add_excerpt_support_for_post' );
+
+
+
+
+// career post type
+
+add_post_type_support( 'careers', 'thumbnail' );
+// Our custom post type function
+function create_posttype1() {
+
+    register_post_type( 'careers',
+    // CPT Options
+        array(
+            'labels' => array(
+                'name' => __( 'Career' ),
+                'singular_name' => __( 'Career' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array('slug' => 'careers'),
+            'supports' => array( 'title', 'editor',  'excerpts' )
+        )
+    );
+}
+// Hooking up our function to theme setup
+add_action( 'init', 'create_posttype1' );
+add_theme_support('post-thumbnails');
+add_post_type_support( 'careers', 'thumbnail' );
+
+
