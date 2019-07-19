@@ -57,7 +57,7 @@ function create_posttype1() {
             'public' => true,
             'has_archive' => true,
             'rewrite' => array('slug' => 'careers'),
-            'supports' => array( 'title', 'editor',  'excerpts' )
+            'supports' => array( 'title', 'editor',  'excerpt' )
         )
     );
 }

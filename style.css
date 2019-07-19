@@ -778,13 +778,15 @@ h3.display_block.realted_post-container_hading span {
 }
 .row_main_bg_career
 {
-    height: 60vh;
-    background-size: cover !important;
+    height: 80vh;
+    background-size: 100% !important;
+    background-position: bottom !important;
 }
 h3.heading_container_main_career {
     font-size: 80px;
     text-align: center;
     color: #fff;
+    text-transform: uppercase;
 }
 .heading_container_main_career_main p
 {
@@ -1686,4 +1688,13 @@ button.submit_butt::after {
     border-bottom: 0;
     border-top: 0;
     transform: rotate(-45deg);
+}
+.the_content_signle_carer
+{
+    margin: 50px 0px !important;
+    display: block;
+}
+.the_content_signle_carer p
+{
+    width: 100% !important;
 }
