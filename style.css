@@ -1504,7 +1504,19 @@ header#main-header ul {
 .container_blog_post_main
 {
     max-width: 100%;
-    width: 80%;
+    width: 95%;
+}
+.row.main_single_post_container .container {
+    max-width: 100%;
+    width: 90%;
+}
+.row.the_post_thumbnail_single img {
+    width: 100%;
+    height: 100%;
+}
+
+.row.the_post_thumbnail_single {
+    height: 500px;
 }
 .list_contaienr_maiN_top
 {
