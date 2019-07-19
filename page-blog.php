@@ -67,7 +67,7 @@
 
 <div class="container container_blog_post_main">
 	<div class="row">
-		<div class="col-md-8">
+		<div class="col-md-9">
 			<div class="row">
 				<div class="col-md-4">
 					latest article
@@ -118,6 +118,21 @@
 			  <?php }
 
 				} ?>
+		</div>
+		<div class="col-md-3">
+			<div class="row">
+				<div class="form_container_subscribe_villaex">
+					<h2>
+						subscribe to villaex
+					</h2>
+					<p>
+						Get our daily newsletter from Villaex's founder Loren Baker about the latest news in the industry
+					</p>
+					<p>
+
+					</p>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
