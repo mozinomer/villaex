@@ -2148,7 +2148,7 @@ button.submit_butt::after {
 
     span.menu_icon_container {
         position: fixed;
-        right: 40px;
+        right: 15px;
         top: 20px;
         z-index: 99999
     }
@@ -2162,6 +2162,7 @@ button.submit_butt::after {
         text-transform: capitalize;
         display: none;
         align-items: center;
+        padding-top: 30vh;
     }
     .hide_show_menu
     {
@@ -2201,6 +2202,18 @@ button.submit_butt::after {
         left: 30px;
         letter-spacing: 1.6px;
         font-weight: 600;
+    }
+    .menu-container_mobile_home .icons_container_social ul li a i {
+        border: 1px solid #fff;
+    }
+
+    .menu-container_mobile_home .icons_container_social ul li {
+        border: none;
+        margin-top: 20px;
+    }
+    .applynow_row
+    {
+        left: 10px;
     }
 }
 
