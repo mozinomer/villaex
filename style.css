@@ -1767,15 +1767,29 @@ button.submit_butt::after {
     .section8--homepage.join_our_team .container,
     .container,
     .row.main_row_join_our_team--homepage,
-    .block_left_join_out_team1
+    .block_left_join_out_team1,
+    .description_bottom_text_section_2--home_page
     {
         width: 100%;
     }
     .heade_homepage,
     .section_2_home_page,
-    .section_5--home_page
+    .section_5--home_page,
+    .container.main_container_section_2_homepage
     {
         height: auto;
+    }
+    .container.main_container_section_2_homepage
+    {
+        padding: 0px !important;
+    }
+    .botton_text_section_2--home_page
+    {
+        margin-bottom: 0px !important;
+    }
+    .section_2_home_page
+    {
+        padding-bottom: 0px;
     }
     .performing_research
     {
@@ -1784,10 +1798,14 @@ button.submit_butt::after {
     ul.list_items_header_hompage
     {
         position: static;
-        margin-left: 124px;
-        /* padding: 80px 0px; */
-        margin: 80px 0px;
-        width: auto;
+        width: 80%;
+        margin: 10px auto 0px;
+    }
+    .heade_homepage {
+        padding: 0px 0px 50px;
+    }
+    .heade_homepage .container {
+        padding: 0px;
     }
     .display_flex
     {
@@ -1797,9 +1815,10 @@ button.submit_butt::after {
     {
         height: auto;
         position: relative;
-        width: 100%;
+        width: 74%;
         top: 0px;
         padding: 30px 0px;
+        float: right;
     }
     .block_right .display_flex
     {
@@ -1808,15 +1827,15 @@ button.submit_butt::after {
     }
     .block_right .display_flex h2
     {
-        font-size: 40px;
+        font-size: 28px;
     }
     .left_block,
     .botton_text_section_2--home_page
     {
         position: relative;
-        width: 100%;
         margin: 50px 0px;
         float: left;
+        width: 75%;
     }
     .section_3--home_page .container {
         width: 100%;
@@ -1826,9 +1845,9 @@ button.submit_butt::after {
     .section_3--home_page {
         height: auto;
         display: block;
-        margin: 21px 0px;
         float: left;
         width: 100%;
+        padding: 20px 0px;
     }
     .col-md-6.col-md-6-with-padding
     {
@@ -1838,7 +1857,7 @@ button.submit_butt::after {
     {
         margin: 20px 0px;
         float: left;
-        padding: 20px 50px;
+        padding: 10px 60px;
     }
     .float-right.right_column_section_4--home_page {
         position: relative;
@@ -1849,7 +1868,9 @@ button.submit_butt::after {
     .section_5--home_page .container_hight-100 .container .row .col-md-4
     {
         padding-bottom: 20px;
+        border: 0px;
         border-bottom: 1px solid #ccc;
+
     }
     .blog-column.col-md-4 {
         margin-bottom: 20px;
@@ -1860,8 +1881,9 @@ button.submit_butt::after {
     }
     .block_left_join_out_team1 h2 {
         position: relative;
-        top: auto;
-        right: auto;
+        top: 20px;
+        left: 12px;
+        width: 100%;
     }
     .block_right_join_our_team--homepage .display_flex {
         display: flex;
@@ -1870,5 +1892,113 @@ button.submit_butt::after {
 
     .block_right_join_our_team--homepage {
         width: 44%;
+        margin: 0px;
+        height: 115px;
+        padding: 10px 0px;
+        display: block;
+    }
+    .block_right_join_our_team--homepage1 .display_flex span>span
+    {
+        display: none;
+    }
+    body
+    {
+        overflow-x: hidden;
+    }
+    footer
+    {
+        float: left;
+    }
+    .row.footer-top_row .col-md-4
+    {
+        padding: 0px !important;
+        display: inline-grid;
+        text-align: center;
+        width: 100%;
+    }
+    .in_text-withline {
+       display: none;
+    }
+    .main_heading_left_block_section_2--home_page
+    {
+        font-size: 24px;
+    }
+    .left_block .container .row .col-md-6:last-child,
+    .col-md-6.col-md-6-with-padding
+    {
+        padding: 0px;
+    }
+    .heading_section_3
+    {
+        font-size: 28px;
+    }
+    .columns_casestudies_homepage
+    {
+        width: 50%;
+    }
+    .row .columns_casestudies_homepage:nth-child(even)
+    {
+        border-right: 0;
+    }
+    .svg svg
+    {
+        width: auto;
+        height: auto;
+    }
+    ul.list_items_header_hompage li a svg
+    {
+        width: 17px;
+        height: 19px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 0px;
+    }
+    ul.list_items_header_hompage li a
+    {
+        font-size: 20px;
+    }
+    ul.list_items_header_hompage li a span
+    {
+        font-size: 15px;
+    }
+    .years_container
+    {
+        padding: 20px 20px;
+        width: 80%;
+        height: 330px;
+    }
+    span.more_than
+    {
+        left: 0px;
+    }
+    span.actual_years
+    {
+        left: 36px;
+    }
+    span.year_text
+    {
+        position: absolute;
+        /* top: 0px; */
+        bottom: 106px;
+        display: block;
+        font-size: 43px;
+        font-weight: 600;
+        right: auto;
+        font-size: 30px;
+        left: 148px;
+        bottom: 96px;
+    }
+    .row.footer-top_row .col-md-4 span {
+        width: 100%;
+        display: block;
+        float: left;
+    }
+    .row.footer-top_row .col-md-4 img {
+        margin: 14px auto 10px;
+        display: block;
+    }
+    .heaidng_join {
+        margin-bottom: 30px;
+        font-size: 30px;
     }
 }
