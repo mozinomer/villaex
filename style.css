@@ -2142,7 +2142,7 @@ button.submit_butt::after {
     }
     span.menu_icon_container i {
         font-size: 27px;
-        color: #fff;
+        color: #000;
         font-weight: 1000;
     }
 
@@ -2163,6 +2163,7 @@ button.submit_butt::after {
         display: none;
         align-items: center;
         padding-top: 30vh;
+        top:0px;
     }
     .hide_show_menu
     {
@@ -2178,6 +2179,11 @@ button.submit_butt::after {
         padding: 10px 0px;
         color: #cccc;
         font-size: 16px;
+        border-top: 0px;
+    }
+    .menu-container_mobile_home ul li:first-child
+    {
+        border-top: 1px solid #ccc;
     }
     .menu-container_mobile_home ul {
         list-style: none;
@@ -2214,6 +2220,15 @@ button.submit_butt::after {
     .applynow_row
     {
         left: 10px;
+    }
+    .left_block
+    {
+        position: relative;
+        margin: 50px 0px;
+        float: left;
+        width: 85%;
+        padding: 10px 20px;
+        height: auto;
     }
 }
 

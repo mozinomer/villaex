@@ -32,12 +32,49 @@
 					?>
 					<a href="<?php bloginfo('url');?>"><img src="<?php echo $image[0]; ?>" alt=""></a>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 display_none_on_mobile">
 					<?php wp_nav_menu( array( 'theme_location' => 'my-custom-menu' ) ); ?>
 				</div>
 			</div>
 		</div>
 	</header>
+	<div class="display__on_mobile">
+		<span class="menu_icon_container">
+			<i class="fas fa-bars"></i>
+		</span>
+		<div class="menu-container_mobile_home">
+			<?php wp_nav_menu( array( 'theme_location' => 'my-custom-menu' ) ); ?>
+			<div class="row icons_container_social">
+				<ul>
+					<li>
+						<a href="#">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fab fa-quora"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fab fa-linkedin-in"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
 <?php } ?>
 
 
