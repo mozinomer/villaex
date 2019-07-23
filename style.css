@@ -2163,6 +2163,10 @@ button.submit_butt::after {
         display: none;
         align-items: center;
     }
+    .hide_show_menu
+    {
+        display: flex;
+    }
     .menu-container_mobile_home div {
         width: 100%;
     }

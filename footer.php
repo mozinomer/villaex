@@ -92,5 +92,21 @@
 </script>
 
 
+<script type="text/javascript">
+	$("document").ready( function() {
+		$(".menu_icon_container").click( function(e) {
+			e.preventDefault();
+			$(".menu-container_mobile_home").slideToggle({
+			  duration: 200,
+			  start: function()
+			  {
+			    jQuery(this).css('display','block');
+			  }
+		});
+	});
+	});
+</script>
+
+
 </body>
 </html>
