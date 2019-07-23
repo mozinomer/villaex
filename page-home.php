@@ -347,7 +347,7 @@ get_header();?>
 			<?php $data_query =  new WP_Query(array('post_type' => 'case_studies', 'order_by','Des', 'posts_per_page' => 6));?>
 			<?php while ( $data_query->have_posts() ) : $data_query->the_post();?>
 				<div class="columns_casestudies_homepage">
-					<?php the_post_thumbnail(); ?>
+					<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
 				</div>
 			<?php endwhile; ?>
 		</div>
