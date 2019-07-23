@@ -11,6 +11,7 @@ get_header();?>
 
 
 <div class="heade_homepage">
+
 	<div class="container">
 		<div class="header_menu_main display_none_on_mobile">
 			<?php wp_nav_menu( array( 'theme_location' => 'my-custom-menu' ) ); ?>
@@ -54,6 +55,12 @@ get_header();?>
 		</div>
 	</div>
 	<div class="container">
+		<!-- <a href="#" class="intro-banner-vdo-play-btn pinkBg" target="_blank">
+		<i class="glyphicon glyphicon-play whiteText" aria-hidden="true"></i>
+		<span class="ripple pinkBg"></span>
+		<span class="ripple pinkBg"></span>
+		<span class="ripple pinkBg"></span>
+		</a> -->
 		<div class="years_container">
 			<span class="compnaY_name">
 				villaex technologies
