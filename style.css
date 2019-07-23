@@ -375,8 +375,10 @@ p {
     border-top: 0;
 }
 .columns_casestudies_homepage img {
-    width: 54%;
+    width: 100%;
     margin: 0 auto;
+    height: 100%;
+    padding: 50px;
 }
 .casestudies-description_homepage
 {

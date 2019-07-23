@@ -344,24 +344,12 @@ get_header();?>
 			</p>
 		</div>
 		<div class="row">
-			<div class="columns_casestudies_homepage">
-				<img src="<?php echo get_template_directory_uri(); ?>/includes/images/casestudies/1.png">
-			</div>
-			<div class="columns_casestudies_homepage">
-				<img src="<?php echo get_template_directory_uri(); ?>/includes/images/casestudies/2.png">
-			</div>
-			<div class="columns_casestudies_homepage border-rihgtee_0">
-				<img src="<?php echo get_template_directory_uri(); ?>/includes/images/casestudies/3.png">
-			</div>
-			<div class="columns_casestudies_homepage border-btoom_0">
-				<img src="<?php echo get_template_directory_uri(); ?>/includes/images/casestudies/4.png">
-			</div>
-			<div class="columns_casestudies_homepage border-btoom_0">
-				<img src="<?php echo get_template_directory_uri(); ?>/includes/images/casestudies/5.jpg">
-			</div>
-			<div class="columns_casestudies_homepage border-btoom_0 border-rihgtee_0">
-				<img src="<?php echo get_template_directory_uri(); ?>/includes/images/casestudies/6.png">
-			</div>
+			<?php $data_query =  new WP_Query(array('post_type' => 'case_studies', 'order_by','Des', 'posts_per_page' => 6));?>
+			<?php while ( $data_query->have_posts() ) : $data_query->the_post();?>
+				<div class="columns_casestudies_homepage">
+					<?php the_post_thumbnail(); ?>
+				</div>
+			<?php endwhile; ?>
 		</div>
 	</div>
 </div>
