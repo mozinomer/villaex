@@ -12,8 +12,16 @@ get_header();?>
 
 <div class="heade_homepage">
 	<div class="container">
-		<div class="header_menu_main">
+		<div class="header_menu_main display_none_on_mobile">
 			<?php wp_nav_menu( array( 'theme_location' => 'my-custom-menu' ) ); ?>
+		</div>
+		<div class="display__on_mobile">
+			<span class="menu_icon_container">
+				menu
+			</span>
+			<div class="menu-container_mobile_home">
+				<?php wp_nav_menu( array( 'theme_location' => 'my-custom-menu' ) ); ?>
+			</div>
 		</div>
 	</div>
 	<div class="container">

@@ -2120,4 +2120,29 @@ button.submit_butt::after {
         width: 100%;
         text-align: center;
     }
+    .list-solutions_provided-single_casestudies
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    ul.list-solutions_provided-single_casestudies li {
+        flex: 0 100%;
+    }
+    .section_4_text-single_case {
+        padding: 50px 0px;
+        font-size: 15px;
+    }
+    .nexT-posT-link
+    {
+        right: 20px;
+    }
+    .display__on_mobile
+    {
+        display: block !important;
+    }
+}
+
+.display__on_mobile
+{
+    display: none;
 }
