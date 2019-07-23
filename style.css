@@ -1768,7 +1768,9 @@ button.submit_butt::after {
     .container,
     .row.main_row_join_our_team--homepage,
     .block_left_join_out_team1,
-    .description_bottom_text_section_2--home_page
+    .description_bottom_text_section_2--home_page,
+    .casestudy_text,
+    .casestudy_heaing
     {
         width: 100%;
     }
@@ -2062,5 +2064,60 @@ button.submit_butt::after {
         font-size: 20px;
         text-align: center;
         margin: 32px 0px 0px;
+    }
+    ul.career_list_container li
+    {
+        background: #4691a8;
+        padding: 10px 0px;
+    }
+    ul.career_list_container li .row .col-md-8 a
+    {
+        color: #fff;
+    }
+    ul.career_list_container li .row .col-md-4 {
+        display: none;
+    }
+    ul.career_list_container li .row .col-md-8 a::after {
+        content: "View Detail";
+        font-size: 15px;
+        font-weight: 100;
+        position: absolute;
+        right: 11px;
+        top: 5px;
+        bottom: 0;
+        margin: auto;
+        display: block;
+    }
+    .row_main_bg_career.display_flex {
+        height: auto;
+        padding: 100px 0px;
+        background-size: cover !important;
+    }
+    h3.heading_container_main_career
+    {
+        font-size: 32px;
+        font-weight: 1000;
+    }
+    .heading_container_main_career_main p
+    {
+        font-weight: 100;
+    }
+    .col-md-4.images_projects_container {
+        border-bottom: 5px dotted #000 !important;
+        border-right: 0;
+    }
+    .row.heading_bottom_casestudies_main_row h2 {
+        font-size: 28px;
+        font-weight: 1000;
+    }
+    .maing_top_caontainer_single_case
+    {
+        background-size: 100% 100% !important;
+    }
+    .the_excerpt_single_case p,
+    .row.bg-dark_single_casestudie p
+    {
+        width: 100%;
+        text-align: center;
     }
 }
