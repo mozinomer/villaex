@@ -2140,6 +2140,64 @@ button.submit_butt::after {
     {
         display: block !important;
     }
+    span.menu_icon_container i {
+        font-size: 27px;
+        color: #fff;
+        font-weight: 1000;
+    }
+
+    span.menu_icon_container {
+        position: fixed;
+        right: 40px;
+        top: 20px;
+        z-index: 99999
+    }
+    .menu-container_mobile_home {
+        position: fixed;
+        z-index: 99;
+        background: #333333;
+        width: 100%;
+        height: 80vh;
+        color: #fff;
+        text-transform: capitalize;
+        display: none;
+        align-items: center;
+    }
+    .menu-container_mobile_home div {
+        width: 100%;
+    }
+
+    .menu-container_mobile_home ul li {
+        border: 1px solid #ccc;
+        width: 100%;
+        padding: 10px 0px;
+        color: #cccc;
+        font-size: 16px;
+    }
+    .menu-container_mobile_home ul {
+        list-style: none;
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        padding: 0px;
+        margin: auto;
+    }
+    .menu-container_mobile_home::before {
+        content: "Villaex";
+        position: absolute;
+        top: 20px;
+        left: 30px;
+        letter-spacing: 1.6px;
+        font-weight: 600;
+    }
+    .menu-container_mobile_home::after {
+        content: "Technologies";
+        position: absolute;
+        top: 48px;
+        left: 30px;
+        letter-spacing: 1.6px;
+        font-weight: 600;
+    }
 }
 
 .display__on_mobile

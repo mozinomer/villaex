@@ -17,7 +17,7 @@ get_header();?>
 		</div>
 		<div class="display__on_mobile">
 			<span class="menu_icon_container">
-				menu
+				<i class="fas fa-bars"></i>
 			</span>
 			<div class="menu-container_mobile_home">
 				<?php wp_nav_menu( array( 'theme_location' => 'my-custom-menu' ) ); ?>
