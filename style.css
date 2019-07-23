@@ -1878,6 +1878,7 @@ button.submit_butt::after {
     .block_left_join_out_team1
     {
         height: 247px;
+        background-size: cover;
     }
     .block_left_join_out_team1 h2 {
         position: relative;
@@ -1891,9 +1892,9 @@ button.submit_butt::after {
     }
 
     .block_right_join_our_team--homepage {
-        width: 44%;
+        width: 57%;
         margin: 0px;
-        height: 115px;
+        height: 100px;
         padding: 10px 0px;
         display: block;
     }
@@ -1915,6 +1916,7 @@ button.submit_butt::after {
         display: inline-grid;
         text-align: center;
         width: 100%;
+        margin-bottom: 20px;
     }
     .in_text-withline {
        display: none;
@@ -2000,5 +2002,65 @@ button.submit_butt::after {
     .heaidng_join {
         margin-bottom: 30px;
         font-size: 30px;
+    }
+    .display_none_on_mobile
+    {
+        display: none;
+    }
+    .botton_text_section_2--home_page
+    {
+        width: 100%;
+    }
+    .botton_text_section_2--home_page p {
+        font-size: 15px;
+        color: #000;
+        font-weight: 600;
+        /* height: 94px; */
+        overflow: hidden;
+    }
+    h3.heaidng_right_section_3_section-3--home_page {
+        margin-bottom: 13px;
+    }
+    .float-right.right_column_section_4--home_page .col-md-12 .col-md-6 {
+        padding: 0px;
+    }
+    .casestudies-description_homepage {
+        width: 100%;
+        margin: 0 auto 20px;
+        font-size: 15px;
+    }
+    .section_6--home_page.case_studies_section--homepage h2,
+    .section_7--home_page.blog h2
+    {
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .blog_heading_title--homepage
+    {
+        margin: 19px 0px 0px;
+        font-size: 16px;
+    }
+    .excerpt_blog--homepage,
+    .icon_shake21
+    {
+        display: none;
+    }
+    .blog-column.col-md-4 p {
+        margin: 10px 0px;
+        font-size: 14px;
+    }
+    .Clients_satsisfied
+    {
+        font-size: 20px;
+    }
+    .section_5--home_page .container_hight-100 .container .row .col-md-4:last-child .row h4
+    {
+        font-weight: 1000;
+    }
+    .heading_located_in_section-5--home_page
+    {
+        font-size: 20px;
+        text-align: center;
+        margin: 32px 0px 0px;
     }
 }

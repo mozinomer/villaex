@@ -237,7 +237,7 @@ get_header();?>
 					<div class="col-md-3">
 						<a class="view_more_button_section_2--home_page view_more_button_section_2--home_page1" href="#">view</a>
 					</div>
-				<div class="row display_flex">
+				<div class="row display_flex display_none_on_mobile">
 					<div class="col-md-4">
 						<img src="<?php echo get_template_directory_uri(); ?>/includes/images/section4/1.png">
 					</div>
