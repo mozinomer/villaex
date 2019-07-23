@@ -1759,11 +1759,21 @@ button.submit_butt::after {
 
 @media only screen and (max-width: 900px)
 {
-    .container.main_container_section_2_homepage
+    .container.main_container_section_2_homepage,
+    .sv_container,
+    .section_4--home_page .container,
+    .section_6--home_page.case_studies_section--homepage .container,
+    .section_7--home_page.blog .container,
+    .section8--homepage.join_our_team .container,
+    .container,
+    .row.main_row_join_our_team--homepage,
+    .block_left_join_out_team1
     {
         width: 100%;
     }
-    .heade_homepage
+    .heade_homepage,
+    .section_2_home_page,
+    .section_5--home_page
     {
         height: auto;
     }
@@ -1778,5 +1788,87 @@ button.submit_butt::after {
         /* padding: 80px 0px; */
         margin: 80px 0px;
         width: auto;
+    }
+    .display_flex
+    {
+        display: block;
+    }
+    .block_right
+    {
+        height: auto;
+        position: relative;
+        width: 100%;
+        top: 0px;
+        padding: 30px 0px;
+    }
+    .block_right .display_flex
+    {
+        display: flex;
+        align-items: center;
+    }
+    .block_right .display_flex h2
+    {
+        font-size: 40px;
+    }
+    .left_block,
+    .botton_text_section_2--home_page
+    {
+        position: relative;
+        width: 100%;
+        margin: 50px 0px;
+        float: left;
+    }
+    .section_3--home_page .container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .section_3--home_page {
+        height: auto;
+        display: block;
+        margin: 21px 0px;
+        float: left;
+        width: 100%;
+    }
+    .col-md-6.col-md-6-with-padding
+    {
+        width: 100%;
+    }
+    a.view_more_button_section_2--home_page
+    {
+        margin: 20px 0px;
+        float: left;
+        padding: 20px 50px;
+    }
+    .float-right.right_column_section_4--home_page {
+        position: relative;
+        width: 100%;
+        float: left;
+        margin: 40px 0px;
+    }
+    .section_5--home_page .container_hight-100 .container .row .col-md-4
+    {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #ccc;
+    }
+    .blog-column.col-md-4 {
+        margin-bottom: 20px;
+    }
+    .block_left_join_out_team1
+    {
+        height: 247px;
+    }
+    .block_left_join_out_team1 h2 {
+        position: relative;
+        top: auto;
+        right: auto;
+    }
+    .block_right_join_our_team--homepage .display_flex {
+        display: flex;
+        align-items: center;
+    }
+
+    .block_right_join_our_team--homepage {
+        width: 44%;
     }
 }
