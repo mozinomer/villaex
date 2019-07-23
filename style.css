@@ -2230,6 +2230,15 @@ button.submit_butt::after {
         padding: 10px 20px;
         height: auto;
     }
+    .row.bread_crumb_contaienr ul
+    {
+        padding:  0px;
+    }
+    .row.the_title-single
+    {
+        font-size: 28px;
+    }
+
 }
 
 .display__on_mobile
