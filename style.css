@@ -2236,9 +2236,23 @@ button.submit_butt::after {
     }
     .row.the_title-single
     {
-        font-size: 28px;
+        font-size: 22px;
+        text-align: center;
     }
-
+    .row.main_single_post_container .container
+    {
+        width: 100%;
+    }
+    .main_single_post_container
+    {
+        margin-top: 20px !important;
+    }
+    .row.the_post_thumbnail_single {
+        height: 200px;
+    }
+    .congtainer_main_tabs-blog .row .col-md-7 {
+        height: 200px;
+    }
 }
 
 .display__on_mobile
