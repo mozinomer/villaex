@@ -1,0 +1,14 @@
+.sldier_blog_hompage li .box
+{
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    -webkit-box-shadow: rgba(5,71,109,0.06) 0px 4px 14px;
+    -moz-box-shadow: rgba(5,71,109,0.06) 0px 4px 14px;
+    box-shadow: rgba(5,71,109,0.06) 0px 4px 14px;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    margin: 0 1rem 8rem 0;
+    padding: 2.875rem;
+}
