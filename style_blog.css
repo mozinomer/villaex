@@ -7,8 +7,78 @@
     -webkit-box-shadow: rgba(5,71,109,0.06) 0px 4px 14px;
     -moz-box-shadow: rgba(5,71,109,0.06) 0px 4px 14px;
     box-shadow: rgba(5,71,109,0.06) 0px 4px 14px;
-    border: 1px solid #e6e6e6;
+    /*border: 1px solid #e6e6e6;*/
     background-color: #fff;
     margin: 0 1rem 8rem 0;
-    padding: 2.875rem;
+    padding: 30px 30px;
+    position: relative;
+}
+.sldier_blog_hompage li .box:hover
+{
+    background: url('https://www.rightpoint.com/-/media/healthcare%20webinar.jpg');
+    background-size: cover;
+    color: #fff;
+}
+.sldier_blog_hompage li .box:hover a
+{
+    color: #fff;
+}
+.sldier_blog_maiN_container
+{
+    max-width: 100% !important;
+    width:90% !important;
+}
+.sldier_blog_maiN_container h2
+{
+    display: block;
+    width: 100%;
+}
+.sldier_blog_maiN_container .heading_row p
+{
+    width: 100%;
+    display: block;
+    margin-bottom: 40px;
+}
+.main_sldier_blog_hompage
+{
+    width: 100%;
+}
+.main_sldier_blog_hompage ul
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.sldier_blog_hompage li .box:hover::after {
+    content: "";
+    background: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.sldier_blog_hompage li .box img,
+.sldier_blog_hompage li .box p,
+.sldier_blog_hompage li .box a
+{
+    z-index: 3;
+    position: relative;
+}
+.container.sldier_blog_maiN_container
+{
+    position: relative;
+}
+.container.sldier_blog_maiN_container::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 74%;
+    height: 79%;
+    right: 0px;
+    background: #4691a8;
+    top: 7%;
+    z-index: -1;
 }
